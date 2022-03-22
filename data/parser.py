@@ -24,6 +24,7 @@ with open(filename) as fh:
         awsService["name"] = awsLine[-1+(-2*i)]
         auxAWS = re.findall('(https?://\S+)', awsLine[-2+(-2*i)])
         if auxAWS: awsService["url"] = auxAWS[0][:len(auxAWS[0])- 1]
+        else: awsService["url"] = ""
         awsServices.append(awsService.copy())
 
     if azureLine:
@@ -32,6 +33,7 @@ with open(filename) as fh:
         azureService["name"] = azureLine[-1+(-2*i)]
         auxAZURE = re.findall('(https?://\S+)', azureLine[-2+(-2*i)])
         if auxAZURE: azureService["url"] = auxAZURE[0][:len(auxAZURE[0])- 1]
+        else: azureService["url"] = ""
         azureServices.append(azureService.copy())
 
     if gcpLine:
@@ -40,6 +42,7 @@ with open(filename) as fh:
         gcpService["name"] = gcpLine[-1+(-2*i)]
         auxGCP = re.findall('(https?://\S+)', gcpLine[-2+(-2*i)])
         if auxGCP: gcpService["url"] = auxGCP[0][:len(auxGCP[0])- 1]
+        else: gcpService["url"] = ""
         gcpServices.append(gcpService.copy())
 
     servicios = {"AWS": awsServices, "AZURE": azureServices, "GCP": gcpServices}
