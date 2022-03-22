@@ -1,0 +1,505 @@
+IaaS
+<td><a href="https://aws.amazon.com/ec2/" target="_blank">Elastic Compute Cloud (EC2)
+<td><a href="https://azure.microsoft.com/services/virtual-machines/" target="_blank">Azure Virtual Machines
+<td><a href="https://cloud.google.com/compute/" target="_blank">Compute Engine
+
+PaaS
+<td><a href="https://aws.amazon.com/elasticbeanstalk/" target="_blank">Elastic Beanstalk
+<td><a href="https://azure.microsoft.com/en-us/services/app-service/" target="_blank">App Service</a> <a href="https://azure.microsoft.com/en-us/services/cloud-services/" target="_blank">Cloud Services
+<td><a href="https://cloud.google.com/appengine/docs/standard/" target="_blank">App Engine Standard Environment</a> <a href="https://cloud.google.com/appengine/docs/flexible/" target="_blank">App Engine Flexible Environment
+
+Servidores virtuales privados
+<td><a href="https://aws.amazon.com/lightsail/" target="_blank">Lightsail
+<td><a href="https://azure.microsoft.com/services/virtual-machines/" target="_blank">Virtual Machine Images
+<td></td>
+
+Servicio gestionado de contenedores
+<td><a href="https://aws.amazon.com/ecs/" target="_blank">EC2 Container Service (ECS)
+<td></td>
+<td></td>
+
+Servicio gestionado de Kubernetes
+<td><a href="https://aws.amazon.com/elasticbeanstalk/" target="_blank">Elastic Container Service para Kubernetes (EKS)
+<td><a href="https://azure.microsoft.com/services/kubernetes-service/" target="_blank">Azure Kubernetes Service (AKS)
+<td><a href="https://cloud.google.com/kubernetes-engine/" target="_blank">Kubernetes Engine
+
+Registro de contenedores Docker
+<td><a href="https://aws.amazon.com/ecr/" target="_blank">EC2 Container Registry (ECR)
+<td><a href="https://azure.microsoft.com/services/container-registry/" target="_blank">Azure Container Registry
+<td><a href="https://cloud.google.com/container-registry/" target="_blank">Container Registry
+
+Contenedores serverless, sin tener que gestionar clusteres ni servidores.
+<td><a href="https://aws.amazon.com/es/fargate/" target="_blank">Fargate
+<td><a href="https://azure.microsoft.com/es-es/services/container-instances/" target="_blank">Container Instances
+<td></td>
+
+Servicio gestionado para desplegar y orquestar aplicaciones basadas en microservicios
+<td><a href="https://azure.microsoft.com/services/service-fabric/" target="_blank">Service Fabric
+<td><a href="https://cloud.google.com/appengine/" target="_blank">App Engine
+<td></td>
+
+Serverless
+<td><a href="https://aws.amazon.com/lambda/" target="_blank">Lambda
+<td><a href="https://azure.microsoft.com/services/functions/" target="_blank">Functions
+<td><a href="https://cloud.google.com/functions/" target="_blank">Cloud Functions
+
+Computacion por lotes
+<td><a href="https://aws.amazon.com/batch/" target="_blank">AWS Batch
+<td><a href="https://azure.microsoft.com/services/batch/" target="_blank">Azure Batch
+<td></td>
+
+Escalado automatico de instancias
+<td><a href="https://aws.amazon.com/autoscaling/" target="_blank">AWS Auto Scaling
+<td><a href="https://docs.microsoft.com/es-es/azure/virtual-machine-scale-sets/" target="_blank">Virtual Machine Scale Sets</a> <a href="https://docs.microsoft.com/es-es/azure/app-service/web-sites-scale" target="_blank">App Service Scale Capability (PAAS)</a> <a href="https://docs.microsoft.com/es-es/azure/app-service/environment/app-service-environment-auto-scale" target="_blank">AutoScaling
+<td><a href="https://cloud.google.com/compute/docs/instance-groups/" target="_blank">Instance Groups
+
+Infraestructura de la cloud en local
+<td><a href="https://aws.amazon.com/es/outposts/" target="_blank">AWS Outposts
+<td></td>
+<td><a href="https://cloud.google.com/gke-on-prem/" target="_blank">GKE On-Prem
+
+Almacenamiento de Objetos
+<td><a href="https://aws.amazon.com/s3/" target="_blank">Simple Storage Services (S3)
+<td><a href="https://azure.microsoft.com/es-es/services/storage/blobs/" target="_blank">Blob Storage
+<td><a href="https://cloud.google.com/storage/" target="_blank">Google Cloud Storage
+
+Almacenamiento para archivado
+<td><a href="https://aws.amazon.com/es/s3/storage-classes/#Infrequent_access" target="_blank">S3 Infrequent Access (IA)</a> <a href="https://aws.amazon.com/glacier/" target="_blank">Glacier
+<td><a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers#cool-access-tier" target="_blank">Storage (Cool)</a> <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers#archive-access-tier" target="_blank">Storage (Archive)
+<td><a href="https://cloud.google.com/storage/archival/" target="_blank">Nearline</a> <a href="https://cloud.google.com/storage/archival/" target="_blank">Coldline
+
+Disco para instancias
+<td><a href="https://aws.amazon.com/ebs/" target="_blank">Elastic Block Store (EBS)
+<td><a href="https://azure.microsoft.com/es-es/services/storage/disks/" target="_blank">Disk Storage
+<td><a href="https://cloud.google.com/persistent-disk/" target="_blank">Persistent Disk
+
+Almacenamiento de ficheros
+<td><a href="https://aws.amazon.com/ebs/" target="_blank">Elastic Block Store (EBS)
+<td><a href="https://azure.microsoft.com/es-es/services/storage/files/" target="_blank">Disk Storage
+<td><a href="https://cloud.google.com/filestore/" target="_blank">Cloud Filestore
+
+Soluciones para transferir grandes cantidades de datos hacia la nube
+<td><a href="https://aws.amazon.com/es/datasync" target="_blank">AWS DataSync</a> <a href="https://aws.amazon.com/snowball-edge/" target="_blank">Snowball Edge</a> <a href="https://aws.amazon.com/snowmobile/" target="_blank">Snowmobile
+<td><a href="https://docs.microsoft.com/es-es/azure/storage/common/storage-import-export-service" target="_blank">Import/Export</a> <a href="https://azure.microsoft.com/en-us/services/storage/databox/" target="_blank">Azure Data Box
+<td><a href="https://cloud.google.com/storage/transfer/" target="_blank">Storage Transfer Service
+
+Backup
+<td><a href="https://aws.amazon.com/glacier/" target="_blank">Glacier</a> <a href="https://aws.amazon.com/storagegateway/" target="_blank">Storage Gateway
+<td><a href="https://azure.microsoft.com/services/backup/" target="_blank">Azure Backup
+<td><a href="https://cloud.google.com/storage/archival/" target="_blank">Coldline
+
+Almacenamiento hibrido
+<td><a href="https://aws.amazon.com/storagegateway/" target="_blank">Storage Gateway
+<td><a href="https://azure.microsoft.com/services/storsimple/" target="_blank">StorSimple
+<td></td>
+
+Servicio de Disaster Recovery
+<td><a href="https://azure.microsoft.com/services/site-recovery/" target="_blank">Site Recovery
+<td></td>
+<td></td>
+
+Bases de datos relacionales
+<td><a href="https://aws.amazon.com/rds/" target="_blank">RDS</a> <a href="https://aws.amazon.com/es/rds/aurora/" target="_blank">Amazon Aurora
+<td><a href="https://azure.microsoft.com/es-es/services/sql-database/" target="_blank">SQL Database
+<td><a href="https://cloud.google.com/sql/" target="_blank">Cloud SQL</a> <a href="https://cloud.google.com/spanner/" target="_blank">Cloud Spanner
+
+NoSQL: almacenamiento de documentos
+<td><a href="https://aws.amazon.com/es/dynamodb/" target="_blank">DynamoDB
+<td><a href="https://azure.microsoft.com/services/cosmos-db/" target="_blank">Azure Cosmos DB
+<td><a href="https://cloud.google.com/datastore/" target="_blank">Cloud Datastore</a> <a href="https://cloud.google.com/bigtable/" target="_blank">Cloud Bigtable
+
+NoSQL: almacenamiento de clave-valor
+<td><a href="https://aws.amazon.com/es/dynamodb/" target="_blank">DynamoDB</a> <a href="https://aws.amazon.com/es/simpledb/" target="_blank">SimpleDB
+<td><a href="https://azure.microsoft.com/services/storage/tables/" target="_blank">Table Storage
+<td><a href="https://cloud.google.com/datastore/" target="_blank">Cloud Datastore
+
+Almacenamiento en cache
+<td><a href="https://aws.amazon.com/es/elasticache/" target="_blank">ElastiCache
+<td><a href="https://azure.microsoft.com/services/cache/" target="_blank">Azure Redis Cache
+<td><a href="https://cloud.google.com/memorystore/" target="_blank">Cloud Memorystore
+
+Migracion de bases de datos
+<td><a href="https://aws.amazon.com/dms/" target="_blank">Database Migration Service
+<td><a href="https://azure.microsoft.com/campaigns/database-migration/" target="_blank">Azure Database Migration Service
+<td></td>
+
+Data warehouse gestionado
+<td><a href="https://aws.amazon.com/redshift/" target="_blank">Redshift
+<td><a href="https://azure.microsoft.com/services/sql-data-warehouse/" target="_blank">SQL Data Warehouse
+<td><a href="https://cloud.google.com/bigquery/" target="_blank">Big Query
+
+Bases de datos basada en grafos
+<td><a href="https://aws.amazon.com/es/neptune/" target="_blank">Neptune
+<td><a href="https://azure.microsoft.com/services/cosmos-db/" target="_blank">Azure Cosmos DB
+<td></td>
+
+Entornos virtuales de red aislados
+<td><a href="https://aws.amazon.com/vpc/" target="_blank">Virtual Private Cloud
+<td><a href="https://azure.microsoft.com/services/virtual-network/" target="_blank">Virtual Network
+<td><a href="https://cloud.google.com/vpn/docs/" target="_blank">Virtual Private Cloud
+
+Conexion con entornos on-prem
+<td><a href="https://docs.aws.amazon.com/es_es/vpc/latest/userguide/VPC_VPN.html" target="_blank">AWS Managed VPN
+<td><a href="https://azure.microsoft.com/en-us/services/vpn-gateway/" target="_blank">VPN Gateway
+<td><a href="https://cloud.google.com/vpn/docs/" target="_blank">Cloud VPN
+
+DNS administrado para gestionar nombres y registros
+<td><a href="https://aws.amazon.com/route53/" target="_blank">Route 53
+<td><a href="https://azure.microsoft.com/services/dns/" target="_blank">Azure DNS
+<td><a href="https://cloud.google.com/dns/" target="_blank">Google Cloud DNS
+
+Redireccion del trafico entrante para mejorar el rendimiento y la fiabilidad
+<td>---</td>
+<td><a href="https://azure.microsoft.com/services/traffic-manager/" target="_blank">Traffic Manager
+<td>---</td>
+
+Red de entrega de contenido global
+<td><a href="https://aws.amazon.com/cloudfront/" target="_blank">CloudFront
+<td><a href="https://azure.microsoft.com/services/cdn/" target="_blank">Content Delivery Network
+<td><a href="https://cloud.google.com/cdn/" target="_blank">Cloud CDN
+
+Red dedicada, privada para conectar la nube y los entornos locales
+<td><a href="https://aws.amazon.com/directconnect/" target="_blank">Direct Connect
+<td><a href="https://azure.microsoft.com/services/expressroute/" target="_blank">ExpressRoute
+<td><a href="https://cloud.google.com/interconnect/" target="_blank">Cloud Interconnect
+
+Balanceo de carga: Distribuye automaticamente el trafico entrante
+<td><a href="https://aws.amazon.com/elasticloadbalancing/" target="_blank">Elastic Load Balancing
+<td><a href="https://azure.microsoft.com/services/load-balancer/" target="_blank">Load Balancer
+<td><a href="https://cloud.google.com/load-balancing/" target="_blank">Cloud Load Balancing
+
+Capacidades de asesoramiento Cloud
+<td><a href="https://aws.amazon.com/trustedadvisor/" target="_blank">Trusted Advisor
+<td><a href="https://azure.microsoft.com/services/advisor/" target="_blank">Azure Advisor
+<td><a href="https://cloud.google.com/security/" target="_blank">Cloud Platform Security
+
+Aprovisionamiento de recursos y orquestacion
+<td><a href="https://aws.amazon.com/opsworks/" target="_blank">OpsWorks (Chef-based)</a> <a href="https://aws.amazon.com/cloudformation/" target="_blank">CloudFormation
+<td><a href="https://azure.microsoft.com/services/automation/" target="_blank">Azure Automation</a> <a href="https://azure.microsoft.com/features/resource-manager/" target="_blank">Resource Manager</a> <a href="https://azure.microsoft.com/documentation/articles/virtual-machines-windows-extensions-features/" target="_blank">VM extensions
+<td><a href="https://cloud.google.com/deployment-manager/" target="_blank">Cloud Deployment Manager
+
+Monitorizacion y administracion de recursos Cloud
+<td><a href="https://aws.amazon.com/cloudwatch/" target="_blank">CloudWatch</a> <a href="https://aws.amazon.com/xray/" target="_blank">X-Ray</a> <a href="https://aws.amazon.com/console/" target="_blank">Management Console
+<td><a href="https://azure.microsoft.com/features/azure-portal/" target="_blank">Azure Portal</a> <a href="https://azure.microsoft.com/services/monitor/" target="_blank">Azure Monitor</a> <a href="https://docs.microsoft.com/es-es/azure/azure-monitor/app/app-insights-overview" target="_blank">Azure Application Insights
+<td><a href="https://cloud.google.com/monitoring/" target="_blank">Stackdriver Monitoring</a> <a href="https://cloud.google.com/cloud-shell/" target="_blank">Cloud Shell</a> <a href="https://cloud.google.com/debugger/" target="_blank">Debugger</a> <a href="https://cloud.google.com/trace/" target="_blank">Trace</a> <a href="https://cloud.google.com/error-reporting/" target="_blank">Error Reporting
+
+Facturacion
+<td><a href="https://docs.aws.amazon.com/account-billing/" target="_blank">Usage and Billing
+<td><a href="https://docs.microsoft.com/es-es/azure/billing/billing-usage-rate-card-overview" target="_blank">Azure Billing API
+<td><a href="https://cloud.google.com/monitoring/" target="_blank">Stackdriver Monitoring</a> <a href="https://cloud.google.com/billing/" target="_blank">Cloud Billing
+
+Administracion
+<td><a href="https://aws.amazon.com/application-discovery/" target="_blank">Application Discovery Service</a> <a href="https://aws.amazon.com/systems-manager/" target="_blank">Systems Manager</a> <a href="https://aws.amazon.com/premiumsupport/phd/" target="_blank">Personal Health Dashboard
+<td><a href="https://azure.microsoft.com/services/log-analytics" target="_blank">Log Analytics</a> <a href="https://www.microsoft.com/cloud-platform/operations-management-suite" target="_blank">Operations Management Suite</a> <a href="https://docs.microsoft.com/en-us/azure/resource-health/resource-health-overview" target="_blank">Resource Health</a> <a href="http://storageexplorer.com/" target="_blank">Storage Explorer
+<td><a href="https://cloud.google.com/cloud-console/" target="_blank">Cloud Console
+
+Seguimiento de la actividad de los usuarios y el uso de las APIs
+<td><a href="https://aws.amazon.com/es/cloudtrail/" target="_blank">CloudTrail
+<td><a href="https://azure.microsoft.com/services/log-analytics" target="_blank">Log Analytics</a> <a href="https://azure.microsoft.com/services/monitor/" target="_blank">Audit logging dentro de Azure Monitor
+<td><a href="https://cloud.google.com/logging/docs/audit/" target="_blank">Cloud Audit Logging
+
+Evalua el estado de las cargas de trabajo en comparacion con las practicas recomendadas sobre arquitectura de AWS
+<td><a href="https://aws.amazon.com/es/well-architected-tool/" target="_blank">Well-Architected Tool
+<td></td>
+<td></td>
+
+Autenticacion y autorizacion
+<td><a href="https://aws.amazon.com/iam/" target="_blank">Identity and Access Management (IAM)</a> <a href="https://aws.amazon.com/organizations/" target="_blank">Organizations
+<td><a href="https://azure.microsoft.com/documentation/articles/role-based-access-control-configure/" target="_blank">Active Directory</a> <a href="https://www.microsoft.com/cloud-platform/azure-active-directory" target="_blank">Active Directory Premium
+<td><a href="https://cloud.google.com/iam/" target="_blank">Cloud IAM</a> <a href="https://cloud.google.com/iap/" target="_blank">Cloud Identity-Aware Proxy
+
+Proteccion de la informacion
+<td>---</td>
+<td><a href="https://www.microsoft.com/cloud-platform/azure-information-protection" target="_blank">Azure Information Protection
+<td>---</td>
+
+Cifrado
+<td><a href="https://aws.amazon.com/kms/" target="_blank">AWS Key Management Service</a> <a href="https://aws.amazon.com/es/cloudhsm/" target="_blank">CloudHSM
+<td><a href="https://azure.microsoft.com/es-es/services/key-vault/" target="_blank">Key Vault
+<td><a href="https://cloud.google.com/kms/" target="_blank">Cloud Key Management Service
+
+Firewall
+<td><a href="https://aws.amazon.com/waf/" target="_blank">Web Application Firewall
+<td><a href="https://azure.microsoft.com/updates/application-gateway-web-application-firewall-in-public-preview/" target="_blank">Application Gateway
+<td></td>
+
+Evaluacion de la seguridad
+<td><a href="https://aws.amazon.com/inspector/" target="_blank">Inspector
+<td><a href="https://azure.microsoft.com/services/security-center/" target="_blank">Security Center
+<td></td>
+
+Administracion de certificados
+<td><a href="https://aws.amazon.com/certificate-manager/" target="_blank">Certificate Manager
+<td><a href="https://azure.microsoft.com/blog/internals-of-app-service-certificate/" target="_blank">App Service Certificates
+<td></td>
+
+Servicios de directorio
+<td><a href="https://aws.amazon.com/directoryservice/?hp=tile&amp;so-exp=below" target="_blank">AWS Directory Service
+<td><a href="https://azure.microsoft.com/services/active-directory/" target="_blank">Active Directory Domain Services
+<td></td>
+
+Administracion de identidades
+<td><a href="https://aws.amazon.com/cognito/" target="_blank">Cognito
+<td><a href="https://azure.microsoft.com/services/active-directory-b2c/" target="_blank">Azure Active Directory B2C
+<td></td>
+
+Autenticacion multifactor
+<td><a href="https://aws.amazon.com/es/iam/details/mfa/" target="_blank">Multi-Factor Authentication
+<td><a href="https://azure.microsoft.com/services/multi-factor-authentication/" target="_blank">Multi-Factor Authentication
+<td><a href="https://cloud.google.com/identity/solutions/enforce-mfa" target="_blank">Multi-Factor Authentication
+
+Deteccion de amenenazas y actividades anomalas.
+<td><a href="https://aws.amazon.com/es/guardduty/" target="_blank">GuardDuty</a> <a href="https://aws.amazon.com/es/macie/" target="_blank">AWS Macie
+<td><a href="https://azure.microsoft.com/es-es/features/azure-advanced-threat-protection/" target="_blank">Azure Advanced Threat Protection
+<td><a href="https://cloud.google.com/security-command-center/" target="_blank">Cloud Security Command Center (Cloud Security Scanner, Cloud Data Loss Prevention API)
+
+Cumplimiento normativo
+<td><a href="https://aws.amazon.com/artifact/" target="_blank">Artifact
+<td><a href="https://www.microsoft.com/TrustCenter/STP/default.aspx" target="_blank">Service Trust Portal
+<td></td>
+
+Proteccion frente a ataques por denegacion de servicio distribuido (DDoS)
+<td><a href="https://aws.amazon.com/shield/" target="_blank">AWS Shield
+<td><a href="https://azure.microsoft.com/en-us/blog/azure-ddos-protection-service-preview/" target="_blank">DDoS Protection Service
+<td><a href="https://cloud.google.com/armor/" target="_blank">Cloud Armor
+
+Servicios para streaming de video, incluidas diversas tecnologias de transcodificacion
+<td><a href="https://aws.amazon.com/elastictranscoder/" target="_blank">Elastic Transcoder
+<td><a href="https://azure.microsoft.com/services/media-services/" target="_blank">Media Services
+<td></td>
+
+Creacion y optimizacion de flujos de trabajo entre aplicaciones, datos y dispositivos en cualquier lugar
+<td><a href="https://aws.amazon.com/swf/" target="_blank">Simple Workflow Service (SWF)
+<td><a href="https://azure.microsoft.com/services/logic-apps/" target="_blank">Logic Apps
+<td></td>
+
+API Management
+<td><a href="https://aws.amazon.com/api-gateway/" target="_blank">API Gateway
+<td><a href="https://azure.microsoft.com/services/api-management/" target="_blank">API Management
+<td><a href="https://cloud.google.com/endpoints/" target="_blank">Cloud Endpoints</a> <a href="https://cloud.google.com/apigee-api-management/" target="_blank">Apigee Api Management
+
+Pruebas de aplicaciones en dispositivos
+<td><a href="https://aws.amazon.com/device-farm/" target="_blank">Device Farm
+<td><a href="https://appcenter.ms/" target="_blank">AppCenter
+<td><a href="https://cloud.google.com/endpoints/" target="_blank">Cloud Endpoints</a> <a href="https://firebase.google.com/docs/test-lab/" target="_blank">Cloud Test Lab
+
+Git Repositories
+<td><a href="https://github.com/aws" target="_blank">AWS Source Repositories
+<td><a href="https://github.com/Azure" target="_blank">Azure Source Repositories
+<td><a href="https://cloud.google.com/source-repositories/" target="_blank">Cloud Source Repositories
+
+Construccion de aplicaciones y artefactos
+<td><a href="https://aws.amazon.com/codebuild/" target="_blank">CodeBuild
+<td><a href="https://azure.microsoft.com/services/visual-studio-team-services/" target="_blank">Visual Studio Team Services
+<td><a href="https://cloud.google.com/cloud-build/" target="_blank">Cloud Build
+
+Interfaz de linea de comandos
+<td><a href="https://aws.amazon.com/cli/" target="_blank">Command Line Interface
+<td><a href="https://azure.microsoft.com/documentation/articles/xplat-cli-install/" target="_blank">Command Line Interface (CLI)</a> <a href="https://azure.microsoft.com/documentation/articles/powershell-install-configure/" target="_blank">PowerShell
+<td><a href="https://cloud.google.com/powershell/" target="_blank">Cloud Tools for Powershell</a> <a href="https://cloud.google.com/sdk/" target="_blank">Cloud SDK
+
+Plantillas predefinidas
+<td><a href="https://aws.amazon.com/quickstart/" target="_blank">Quick Start
+<td><a href="https://azure.microsoft.com/resources/templates/" target="_blank">Quickstart Templates
+<td></td>
+
+Repositorios de codigo
+<td><a href="https://aws.amazon.com/codecommit/" target="_blank">CodeCommit
+<td><a href="https://azure.microsoft.com/es-es/services/devops/repos/" target="_blank">Azure Repos
+<td><a href="https://cloud.google.com/source-repositories/" target="_blank">Cloud Source Repositories
+
+Despliegue de aplicaciones
+<td><a href="https://aws.amazon.com/codedeploy/" target="_blank">CodeDeploy</a> <a href="https://aws.amazon.com/codepipeline/" target="_blank">CodePipeline
+<td><a href="https://azure.microsoft.com/services/devops/" target="_blank">Azure DevOps</a> <a href="https://azure.microsoft.com/es-es/services/devops/pipelines/" target="_blank">Azure Pipelines
+<td></td>
+
+Coleccion de herramientas para desarrollar aplicaciones
+<td><a href="https://aws.amazon.com/tools/" target="_blank">Developer Tools
+<td><a href="https://azure.microsoft.com/tools/" target="_blank">Developer Tools
+<td></td>
+
+Desarrollo de aplicaciones moviles
+<td><a href="https://aws.amazon.com/es/amplify/" target="_blank">Amplify
+<td><a href="https://azure.microsoft.com/services/app-service/mobile/" target="_blank">Mobile Apps</a> <a href="https://azure.microsoft.com/features/xamarin/" target="_blank">Xamarin Apps
+<td></td>
+
+Analisis de aplicaciones moviles
+<td><a href="https://aws.amazon.com/es/mobileanalytics/" target="_blank">Mobile Analytics
+<td><a href="https://azure.microsoft.com/services/hockeyapp/" target="_blank">HockeyApp</a> <a href="https://azure.microsoft.com/services/application-insights/" target="_blank">Application Insights
+<td></td>
+
+Servicios de email
+<td><a href="https://aws.amazon.com/es/ses/" target="_blank">Simple Email Service (SES)
+<td></td>
+<td></td>
+
+Servicios de colas
+<td><a href="https://aws.amazon.com/es/sqs/" target="_blank">Simple Queue Service (SQS)
+<td><a href="https://azure.microsoft.com/services/storage/queues/" target="_blank">Azure Queue Storage
+<td><a href="https://firebase.google.com/docs/cloud-messaging/" target="_blank">Cloud Pub/Sub
+
+Servicio gestionado de Apache MQ
+<td><a href="https://aws.amazon.com/es/amazon-mq/" target="_blank">Amazon MQ
+<td></td>
+<td></td>
+
+Servicios de notificaciones
+<td><a href="https://aws.amazon.com/es/sns/" target="_blank">Simple Notification Service (SNS)
+<td><a href="https://azure.microsoft.com/es-es/services/notification-hubs/" target="_blank">Notification Hubs
+<td><a href="https://firebase.google.com/docs/cloud-messaging/" target="_blank">Firebase Cloud Messaging
+
+Servicios de pago
+<td><a href="https://aws.amazon.com/es/devpay/" target="_blank">Amazon Dev Pay
+<td></td>
+<td><a href="https://developers.google.com/pay/" target="_blank">Google Pay API
+
+Implementacion de procesos de back-end conectando aplicaciones, datos y dispositivos en local o en la nube
+<td><a href="https://aws.amazon.com/es/step-functions/" target="_blank">AWS Step Functions
+<td><a href="https://azure.microsoft.com/services/logic-apps/" target="_blank">Logic Apps
+<td></td>
+
+Service mesh
+<td><a href="https://aws.amazon.com/es/app-mesh/" target="_blank">App Mesh
+<td><a href="https://docs.microsoft.com/es-es/azure/service-fabric-mesh/service-fabric-mesh-overview" target="_blank">Service Fabric Mesh
+<td><a href="https://cloud.google.com/istio/" target="_blank">Istio
+
+Servicio de busqueda escalable basado en Apache Lucene.
+<td><a href="https://aws.amazon.com/es/elasticsearch-service/" target="_blank">Elasticsearch Service
+<td></td>
+<td></td>
+
+Servicio de busqueda administrado
+<td><a href="https://aws.amazon.com/es/cloudsearch/" target="_blank">CloudSearch
+<td><a href="https://azure.microsoft.com/services/search/" target="_blank">Azure Search
+<td></td>
+
+Plataforma de analisis de grandes cantidades de datos basada en Hadoop y/o Apache Spark
+<td><a href="https://aws.amazon.com/es/emr/" target="_blank">Amazon EMR
+<td><a href="https://azure.microsoft.com/services/databricks/" target="_blank">Azure Databricks</a> <a href="https://azure.microsoft.com/services/hdinsight/" target="_blank">HDInsight
+<td><a href="https://cloud.google.com/dataproc/" target="_blank">Cloud Dataproc
+
+Plataformas para la ingesta y el procesado de streams de datos
+<td><a href="https://aws.amazon.com/es/kinesis/" target="_blank">Amazon Kinesis
+<td><a href="https://azure.microsoft.com/es-es/services/stream-analytics/" target="_blank">Stream Analytics</a> <a href="https://azure.microsoft.com/es-es/services/storage/data-lake-storage/" target="_blank">Data Lake Store</a> <a href="https://azure.microsoft.com/services/data-lake-analytics/" target="_blank">Analisis con Azure Data Lake
+<td><a href="https://cloud.google.com/pubsub/" target="_blank">Pub/Sub
+
+Streaming de datos
+<td><a href="https://aws.amazon.com/es/kinesis/data-firehose/" target="_blank">Kinesis Data Firehose</a> <a href="https://aws.amazon.com/es/kinesis/data-streams/" target="_blank">Kinesis Data Streams
+<td><a href="https://azure.microsoft.com/services/event-hubs/" target="_blank">Event Hubs
+<td></td>
+
+Servicio gestionado para almacenar datos empresariales y consultarlos mediante SQL estandar
+<td><a href="https://aws.amazon.com/es/athena/" target="_blank">Amazon Athena
+<td><a href="https://azure.microsoft.com/services/data-lake-analytics/" target="_blank">Analisis con Azure Data Lake
+<td><a href="https://cloud.google.com/bigquery/" target="_blank">BigQuery
+
+Orquestacion de workflows de datos
+<td><a href="https://aws.amazon.com/es/athena/" target="_blank">Data Pipeline</a> <a href="https://aws.amazon.com/es/glue/" target="_blank">AWS Glue
+<td><a href="https://azure.microsoft.com/services/data-factory/" target="_blank">Data Factory</a> <a href="https://azure.microsoft.com/services/data-catalog/" target="_blank">Data Catalog
+<td><a href="https://cloud.google.com/composer/" target="_blank">Cloud Composer
+
+Visualizacion
+<td><a href="https://aws.amazon.com/es/quicksight/" target="_blank">QuickSight
+<td><a href="https://powerbi.microsoft.com/" target="_blank">PowerBI
+<td><a href="https://datastudio.withgoogle.com/" target="_blank">Data Studio
+
+Servicio gestionado para Machine Learning
+<td><a href="https://aws.amazon.com/es/sagemaker/" target="_blank">SageMaker
+<td><a href="https://azure.microsoft.com/services/machine-learning/" target="_blank">Azure Machine Learning Studio</a> <a href="https://azure.microsoft.com/services/machine-learning-services/" target="_blank">Servicio Azure Machine Learning
+<td><a href="https://cloud.google.com/ml-engine/" target="_blank">Cloud Machine Learning Engine
+
+Reconocimiento de voz e interfaz de conversacion
+<td><a href="https://aws.amazon.com/es/lex/" target="_blank">Amazon Lex
+<td><a href="https://azure.microsoft.com/services/cognitive-services/speech/" target="_blank">Bing Speech API</a> <a href="https://azure.microsoft.com/services/cognitive-services/speaker-recognition/" target="_blank">Speaker Recognition API
+<td><a href="https://cloud.google.com/dialogflow-enterprise/" target="_blank">Dialogflow Enterprise Edition
+
+Texto a voz
+<td><a href="https://aws.amazon.com/es/polly/" target="_blank">Amazon Polly
+<td><a href="https://azure.microsoft.com/services/cognitive-services/speech/" target="_blank">Bing Speech API
+<td><a href="https://cloud.google.com/text-to-speech/" target="_blank">Text-To-Speech
+
+Vision
+<td><a href="https://aws.amazon.com/es/rekognition/" target="_blank">Amazon Rekognition
+<td><a href="https://azure.microsoft.com/services/cognitive-services/computer-vision/" target="_blank">Computer Vision</a>  <a href="https://azure.microsoft.com/services/cognitive-services/face/" target="_blank">Face API</a> <a href="https://azure.microsoft.com/services/cognitive-services/emotion/" target="_blank">Emotions API
+<td><a href="https://cloud.google.com/vision/" target="_blank">Cloud Vision
+
+Procesamiento de lenguaje natural
+<td><a href="https://aws.amazon.com/es/comprehend/" target="_blank">Amazon Comprehend
+<td><a href="https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/" target="_blank">Language Understanding Intelligent Service (LUIS)
+<td><a href="https://cloud.google.com/natural-language/" target="_blank">Cloud Natural Language
+
+Traduccion
+<td><a href="https://aws.amazon.com/es/translate/" target="_blank">Amazon Translate
+<td><a href="https://azure.microsoft.com/es-es/services/cognitive-services/translator-text-api/" target="_blank">Translator Text
+<td><a href="https://cloud.google.com/translate/" target="_blank">Cloud Translation
+
+Video
+<td><a href="https://aws.amazon.com/es/rekognition/video-features/" target="_blank">Amazon Rekognition Video
+<td><a href="https://www.microsoft.com/cognitive-services/video-api" target="_blank">Video API
+<td><a href="https://cloud.google.com/video-intelligence/" target="_blank">Cloud Video Intelligence
+
+Servicios de asistente personal
+<td><a href="https://developer.amazon.com/es/alexa-skills-kit" target="_blank">Alexa Skills Kits
+<td><a href="https://azure.microsoft.com/es-es/overview/ai-platform/" target="_blank">Azure AI</a> <a href="https://dev.botframework.com/" target="_blank">Bot Framework
+<td><a href="https://developers.google.com/actions/" target="_blank">Actions on Google
+
+Servicio ML automatizado
+<td>---</td>
+<td>---</td>
+<td><a href="https://cloud.google.com/automl/" target="_blank">Cloud AutoML
+
+Servicio para conectar y supervisar dispositivos IoT
+<td><a href="https://aws.amazon.com/es/iot-core/" target="_blank">AWS IoT Core
+<td><a href="https://azure.microsoft.com/services/iot-hub/" target="_blank">Azure IoT Hub
+<td><a href="https://cloud.google.com/iot-core/" target="_blank">Cloud IoT Core
+
+Servicio gestionado para dotar de capacidades de Edge Computing a los dispositivos
+<td><a href="https://aws.amazon.com/es/greengrass/" target="_blank">AWS Greengrass
+<td><a href="https://azure.microsoft.com/services/iot-edge/" target="_blank">Azure IoT Edge
+<td></td>
+
+Administracion de dispositivos de forma remota
+<td><a href="https://aws.amazon.com/es/iot-device-management/" target="_blank">AWS IoT Device Management
+<td><a href="https://docs.microsoft.com/es-es/azure/iot-hub/iot-hub-device-management-overview" target="_blank">Azure IoT Hub Device Management
+<td></td>
+
+Deteccion de eventos y respuesta
+<td><a href="https://aws.amazon.com/es/iot-events/" target="_blank">AWS IoT Events
+<td><a href="https://azure.microsoft.com/es-es/services/event-grid/" target="_blank">Event Grid
+<td></td>
+
+Servicio gestionado para crear redes blockchain escalables basadas en Hyperledger Fabric y Ethereum
+<td><a href="https://aws.amazon.com/es/managed-blockchain/" target="_blank">Amazon Managed Blockchain
+<td></td>
+<td></td>
+
+Base de datos de contabilidad completamente administrada en la que se proporciona un registro de transacciones transparente, inmutable y que se puede verificar mediante criptografia
+<td><a href="https://aws.amazon.com/es/qldb/" target="_blank">Amazon Quantum Ledger Database
+<td></td>
+<td></td>
+
+Marketplace para consumir productos/servicios de terceros
+<td><a href="https://aws.amazon.com/marketplace" target="_blank">AWS Marketplace
+<td><a href="https://azure.microsoft.com/marketplace/" target="_blank">Azure Marketplace
+<td><a href="https://cloud.google.com/marketplace/" target="_blank">GCP Marketplace
+
+Suite empresarial integral de comunicaciones, correo, documentos
+<td><a href="https://aws.amazon.com/es/workmail/" target="_blank">WorkMail</a> <a href="https://aws.amazon.com/es/workdocs/" target="_blank">WorkDocs</a> <a href="https://aws.amazon.com/es/chime/" target="_blank">Chime
+<td><a href="https://products.office.com/" target="_blank">Office 365
+<td><a href="https://gsuite.google.com/" target="_blank">Gsuite
+
+Servicios gestionados para alojar servidores de juegos
+<td><a href="https://aws.amazon.com/es/gamelift/" target="_blank">GameLift
+<td><a href="https://playfab.com/" target="_blank">PlayFab
+<td></td>
+
+Motor de juegos
+<td><a href="https://aws.amazon.com/es/lumberyard/" target="_blank">Lumberyard
+<td></td>
+<td></td>
+
+Servicio de realidad aumentada y realidad virtual
+<td><a href="https://aws.amazon.com/es/sumerian/" target="_blank">Amazon Sumerian
+<td></td>
+<td></td>
+       
