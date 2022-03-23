@@ -3,8 +3,8 @@ import re
 
 filename = 'data.txt'
 
-out = {}
-fields = ["AWS", "AZURE", "GCP"]
+out = {"Servicios": []}
+fields = []
 
 with open(filename) as fh:
   for i in range (101):
@@ -17,6 +17,8 @@ with open(filename) as fh:
     azureLine = fh.readline().strip().split(">")
     gcpLine = fh.readline().strip().split(">")
     emptyLine = fh.readline()
+
+    servicio = servicio[:len(servicio)-1]
 
     if awsLine:
       awsServices = []
@@ -47,7 +49,9 @@ with open(filename) as fh:
 
     servicios = {"AWS": awsServices, "AZURE": azureServices, "GCP": gcpServices}
 
-    out[servicio] = servicios
+    #fields.append(servicios)
+
+    out["Servicios"].append({"servicio": servicio, "ofertas": servicios})
 
 out_file = open("data.json", "w")
 json.dump(out, out_file, indent = 2, sort_keys = False)
