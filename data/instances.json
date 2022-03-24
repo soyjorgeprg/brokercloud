@@ -1,0 +1,177 @@
+{
+	"Instances": {
+		"stream.standard.small": {
+			"cpu": 1,
+			"ram": 2,
+			"precio": 0.075
+		},
+		"stream.standard.medium": {
+			"cpu": 2,
+			"ram": 4,
+			"precio": 0.10
+		},
+		"stream.standard.large": {
+			"cpu": 2,
+			"ram": 8,
+			"precio": 0.2
+		},
+		"stream.compute.large": {
+			"cpu": 2,
+			"ram": 3.75,
+			"precio": 0.25
+		},
+		"stream.compute.xlarge": {
+			"cpu": 4,
+			"ram": 7.5,
+			"precio": 0.5
+		},
+		"stream.compute.2xlarge": {
+			"cpu": 8,
+			"ram": 15,
+			"precio": 1
+		},
+		"stream.compute.4xlarge": {
+			"cpu": 16,
+			"ram": 30,
+			"precio": 2
+		},
+		"stream.compute.8xlarge": {
+			"cpu": 32,
+			"ram": 60,
+			"precio": 4
+		},
+		"stream.compute.z1d.large": {
+			"cpu": 2,
+			"ram": 16,
+			"precio": 0.45
+		},
+		"stream.compute.z1d.xlarge": {
+			"cpu": 4,
+			"ram": 32,
+			"precio": 0.9
+		},
+		"stream.compute.z1d.2xlarge": {
+			"cpu": 8,
+			"ram": 64,
+			"precio": 1.8
+		},
+		"stream.compute.z1d.3xlarge": {
+			"cpu": 12,
+			"ram": 96,
+			"precio": 2.7
+		},
+		"stream.compute.z1d.6xlarge": {
+			"cpu": 24,
+			"ram": 192,
+			"precio": 5.4
+		},
+		"stream.compute.z1d.12xlarge": {
+			"cpu": 48,
+			"ram": 384,
+			"precio": 10.8
+		},
+		"stream.compute.large": {
+			"cpu": 2,
+			"ram": 15.3,
+			"precio": 0.25
+		},
+		"stream.compute.xlarge": {
+			"cpu": 4,
+			"ram": 30.5,
+			"precio": 0.5
+		},
+		"stream.compute.2xlarge": {
+			"cpu": 8,
+			"ram": 61,
+			"precio": 1
+		},
+		"stream.compute.4xlarge": {
+			"cpu": 16,
+			"ram": 122,
+			"precio": 2
+		},
+		"stream.compute.8xlarge": {
+			"cpu": 32,
+			"ram": 244,
+			"precio": 4
+		},
+		"stream.compute.g4dn.xlarge": {
+			"cpu": 4,
+			"ram": 16,
+			"ramGPU": 16,
+			"precio": 1
+		},
+		"stream.compute.g4dn.2xlarge": {
+			"cpu": 8,
+			"ram": 32,
+			"ramGPU": 16,
+			"precio": 1.58
+		},
+		"stream.compute.g4dn.4xlarge": {
+			"cpu": 16,
+			"ram": 64,
+			"ramGPU": 16,
+			"precio": 2.73
+		},
+		"stream.compute.g4dn.8xlarge": {
+			"cpu": 32,
+			"ram": 16,
+			"ramGPU": 16,
+			"precio": 5.14
+		},
+		"stream.compute.g4dn.12xlarge": {
+			"cpu": 48,
+			"ram": 192,
+			"ramGPU": 64,
+			"precio": 8.62
+		},
+		"stream.compute.g4dn.16xlarge": {
+			"cpu": 64,
+			"ram": 256,
+			"ramGPU": 16,
+			"precio": 10.28
+		},
+		"stream.graphics-pro.4xlarge": {
+			"cpu": 16,
+			"ram": 122,
+			"ramGPU": 8,
+			"precio": 2.05
+		},
+		"stream.graphics-pro.8xlarge": {
+			"cpu": 32,
+			"ram": 244,
+			"ramGPU": 16,
+			"precio": 4.1
+		},
+		"stream.graphics-pro.16xlarge": {
+			"cpu": 64,
+			"ram": 488,
+			"ramGPU": 32,
+			"precio": 8.2
+		},
+		"stream.graphics-design.large": {
+			"cpu": 2,
+			"ram": 7.5,
+			"ramGPU": 1,
+			"precio": 0.25
+		},
+		"stream.graphics-design.xlarge": {
+			"cpu": 4,
+			"ram": 15.3,
+			"ramGPU": 2,
+			"precio": 0.5
+		},
+		"stream.graphics-design.2xlarge": {
+			"cpu": 8,
+			"ram": 30.5,
+			"ramGPU": 4,
+			"precio": 1
+		},
+		"stream.graphics-design.4xlarge": {
+			"cpu": 16,
+			"ram": 61,
+			"ramGPU": 8,
+			"precio": 2
+		}
+	}
+}
