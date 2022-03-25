@@ -9,7 +9,12 @@ IaaS
 
 2. Luego mediante el script [parser.py](https://github.com/soyjorgeprg/brokercloud/blob/main/data/parser.py) obtuvimos un json con todos los datos recopilados.
 
-3. Añadir precios y etiquetas
+3. Añadir precios y etiquetas de AWS
 
-3.1. Problema con API Rest en Sidney y con San Paulo (falta un precio oficial en las llamadas a API Restful)
-3.2. AppFlow tanto en AWS como externo pero conectado con AWS PrivateLink es el mismo precio
+   3.1. Problema con API Rest en Sidney y con San Paulo (falta un precio oficial en las llamadas a API Restful)
+
+   3.2. AppFlow tanto en AWS como externo, pero conectado con AWS PrivateLink es el mismo precio
+
+   3.3. Analizar como se debe añadir servicios como Aurora o Bracket
+
+   3.4. Analizar la necesidad de añadir Chime

@@ -40,57 +40,57 @@
 			"ram": 60,
 			"precio": 4
 		},
-		"stream.compute.z1d.large": {
+		"stream.memory.z1d.large": {
 			"cpu": 2,
 			"ram": 16,
 			"precio": 0.45
 		},
-		"stream.compute.z1d.xlarge": {
+		"stream.memory.z1d.xlarge": {
 			"cpu": 4,
 			"ram": 32,
 			"precio": 0.9
 		},
-		"stream.compute.z1d.2xlarge": {
+		"stream.memory.z1d.2xlarge": {
 			"cpu": 8,
 			"ram": 64,
 			"precio": 1.8
 		},
-		"stream.compute.z1d.3xlarge": {
+		"stream.memory.z1d.3xlarge": {
 			"cpu": 12,
 			"ram": 96,
 			"precio": 2.7
 		},
-		"stream.compute.z1d.6xlarge": {
+		"stream.memory.z1d.6xlarge": {
 			"cpu": 24,
 			"ram": 192,
 			"precio": 5.4
 		},
-		"stream.compute.z1d.12xlarge": {
+		"stream.memory.z1d.12xlarge": {
 			"cpu": 48,
 			"ram": 384,
 			"precio": 10.8
 		},
-		"stream.compute.large": {
+		"stream.memory.large": {
 			"cpu": 2,
 			"ram": 15.3,
 			"precio": 0.25
 		},
-		"stream.compute.xlarge": {
+		"stream.memory.xlarge": {
 			"cpu": 4,
 			"ram": 30.5,
 			"precio": 0.5
 		},
-		"stream.compute.2xlarge": {
+		"stream.memory.2xlarge": {
 			"cpu": 8,
 			"ram": 61,
 			"precio": 1
 		},
-		"stream.compute.4xlarge": {
+		"stream.memory.4xlarge": {
 			"cpu": 16,
 			"ram": 122,
 			"precio": 2
 		},
-		"stream.compute.8xlarge": {
+		"stream.memory.8xlarge": {
 			"cpu": 32,
 			"ram": 244,
 			"precio": 4
