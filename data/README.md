@@ -15,6 +15,6 @@ IaaS
 
    3.2. AppFlow tanto en AWS como externo, pero conectado con AWS PrivateLink es el mismo precio
 
-   3.3. Analizar como se debe añadir servicios como Aurora o Bracket
+   3.3. Analizar como se debe añadir servicios como Aurora, Bracket o CloudWatch
 
    3.4. Analizar la necesidad de añadir Chime
