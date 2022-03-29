@@ -1,70 +1,112 @@
-{
-	"us-east-2": {
-		"location": "US East (Ohio)"
+[
+	{
+		"us-east-2": {
+			"location": "US East (Ohio)"
+		}
 	},
-	"us-east-1": {
-		"location": "EE. UU. Este (Norte de Virginia)"
+	{
+		"us-east-1": {
+			"location": "EE. UU. Este (Norte de Virginia)"
+		}
 	},
-	"us-west-1": {
-		"location": "EE.UU. Oeste (Norte de California)"
+	{
+		"us-west-1": {
+			"location": "EE.UU. Oeste (Norte de California)"
+		}
 	},
-	"us-west-2": {
-		"location": "EE. UU. Oeste (Oregón)"
+	{
+		"us-west-2": {
+			"location": "EE. UU. Oeste (Oregón)"
+		}
 	},
-	"af-south-1": {
-		"location": "Africa (Cape Town)"
+	{
+		"af-south-1": {
+			"location": "Africa (Cape Town)"
+		}
 	},
-	"ap-east-1": {
-		"location": "Asia Pacific (Hong Kong)"
+	{
+		"ap-east-1": {
+			"location": "Asia Pacific (Hong Kong)"
+		}
 	},
-	"ap-southeast-3": {
-		"location": "Asia-Pacífico (Yakarta)"
+	{
+		"ap-southeast-3": {
+			"location": "Asia-Pacífico (Yakarta)"
+		}
 	},
-	"ap-south-1": {
-		"location": "Asia Pacific (Mumbai)"
+	{
+		"ap-south-1": {
+			"location": "Asia Pacific (Mumbai)"
+		}
 	},
-	"ap-northeast-3": {
-		"location": "Asia Pacific (Osaka)"
+	{
+		"ap-northeast-3": {
+			"location": "Asia Pacific (Osaka)"
+		}
 	},
-	"ap-northeast-2": {
-		"location": "Asia Pacific (Seoul)"
+	{
+		"ap-northeast-2": {
+			"location": "Asia Pacific (Seoul)"
+		}
 	},
-	"ap-southeast-1": {
-		"location": "Asia Pacífico (Singapur)"
+	{
+		"ap-southeast-1": {
+			"location": "Asia Pacífico (Singapur)"
+		}
 	},
-	"ap-southeast-2": {
-		"location": "Asia Pacífico (Sídney)"
+	{
+		"ap-southeast-2": {
+			"location": "Asia Pacífico (Sídney)"
+		}
 	},
-	"ap-northeast-1": {
-		"location": "Asia Pacífico (Tokio)"
+	{
+		"ap-northeast-1": {
+			"location": "Asia Pacífico (Tokio)"
+		}
 	},
-	"ca-central-1": {
-		"location": "Canada (Central)"
+	{
+		"ca-central-1": {
+			"location": "Canada (Central)"
+		}
 	},
-	"eu-central-1": {
-		"location": "Europe (Frankfurt)"
+	{
+		"eu-central-1": {
+			"location": "Europe (Frankfurt)"
+		}
 	},
-	"eu-west-1": {
-		"location": "Europa (Irlanda)"
+	{
+		"eu-west-1": {
+			"location": "Europa (Irlanda)"
+		}
 	},
-	"eu-west-2": {
-		"location": "Europe (London)"
+	{
+		"eu-west-2": {
+			"location": "Europe (London)"
+		}
 	},
-	"eu-south-1": {
-		"location": "Europe (Milan)"
+	{
+		"eu-south-1": {
+			"location": "Europe (Milan)"
+		}
 	},
-	"eu-west-3": {
-		"location": "Europe (Paris)"
+	{
+		"eu-west-3": {
+			"location": "Europe (Paris)"
+		}
 	},
-	"eu-north-1": {
-		"location": "Europe (Stockholm)"
+	{
+		"eu-north-1": {
+			"location": "Europe (Stockholm)"
+		}
 	},
-	"me-south-1": {
-		"location": "Middle East (Bahrain)"
+	{
+		"me-south-1": {
+			"location": "Middle East (Bahrain)"
+		}
 	},
-	"sa-east-1": {
-		"location": "América del Sur (São Paulo)"
+	{
+		"sa-east-1": {
+			"location": "América del Sur (São Paulo)"
+		}
 	}
-}
-
-		
+]
