@@ -1,0 +1,24 @@
+{
+  "servicio": "",
+  "etiquetas": [],
+  "ofertas": {
+    "AWS": {
+      "-": {
+          "name": "",
+          "url": ""
+          }
+      },
+    "AZURE": {
+      "-": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "GCP": {
+      "-": {
+        "name": "",
+        "url": ""
+      }
+    }
+  }
+}

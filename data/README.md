@@ -15,6 +15,16 @@ IaaS
 
    3.2. AppFlow tanto en AWS como externo, pero conectado con AWS PrivateLink es el mismo precio
 
-   3.3. Analizar como se debe añadir servicios como Aurora, Bracket o CloudWatch
+   3.3. Analizar como se debe añadir ciertos servicios:
 
-   3.4. Analizar la necesidad de añadir Chime
+      - [ ] Aurora: muchos datos y quizá esten repetidos en RDS
+      - [ ] Bracket: informática cuantica
+      - [ ] Cloudwatch: muchas métricas distintas con distintos valores, como guardarlos bien
+      - [ ] Connect: servicio al cliente (se considera cloud?)
+      - [ ] DevOps Guru: como guardar los grupos de recursos
+      - [ ] DynamoDB: mucha información, debo pensar como organizarla
+      - [ ] EC2: muchos SO y máquinas (16 SO por unas 300 máquinas en cada --> 4800 entradas con 5 caracterisitcas cada), más spot, saving y dedicados
+
+   3.4. Analizar la necesidad de añadir ciertos servicios:
+      - [ ] Chime: servicio de reuniones
+      - [ ] Corretto: es un JDK gratuito

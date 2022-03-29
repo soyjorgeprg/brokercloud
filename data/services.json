@@ -38,7 +38,7 @@
             "url": "https://azure.microsoft.com/en-us/services/cloud-services/"
           },
           {
-            "name": "App Service</a",
+            "name": "App Service",
             "url": "https://azure.microsoft.com/en-us/services/app-service/"
           }
         ],
@@ -48,7 +48,7 @@
             "url": "https://cloud.google.com/appengine/docs/flexible/"
           },
           {
-            "name": "App Engine Standard Environment</a",
+            "name": "App Engine Standard Environment",
             "url": "https://cloud.google.com/appengine/docs/standard/"
           }
         ]
@@ -240,33 +240,35 @@
     },
     {
       "servicio": "Escalado automatico de instancias",
+      "etiquetas": ["escalado", "automatico", "scaling"],
       "ofertas": {
-        "AWS": [
-          {
+        "AWS": {
+          "Auto Scaling": {
             "name": "AWS Auto Scaling",
-            "url": "https://aws.amazon.com/autoscaling/"
+            "url": "https://aws.amazon.com/autoscaling/",
+            "precio": 0
           }
-        ],
-        "AZURE": [
-          {
+        },
+        "AZURE": {
+          "AutoScaling": {
             "name": "AutoScaling",
             "url": "https://docs.microsoft.com/es-es/azure/app-service/environment/app-service-environment-auto-scale"
           },
-          {
-            "name": "App Service Scale Capability (PAAS)</a",
+          "(PAAS)": {
+            "name": "App Service Scale Capability (PAAS)",
             "url": "https://docs.microsoft.com/es-es/azure/app-service/web-sites-scale"
           },
-          {
-            "name": "Virtual Machine Scale Sets</a",
+          "ScaleSets": {
+            "name": "Virtual Machine Scale Sets",
             "url": "https://docs.microsoft.com/es-es/azure/virtual-machine-scale-sets/"
           }
-        ],
-        "GCP": [
-          {
+        },
+        "GCP": {
+          "InstanceGroups": {
             "name": "Instance Groups",
             "url": "https://cloud.google.com/compute/docs/instance-groups/"
           }
-        ]
+        }
       }
     },
     {
@@ -324,7 +326,7 @@
             "url": "https://aws.amazon.com/glacier/"
           },
           {
-            "name": "S3 Infrequent Access (IA)</a",
+            "name": "S3 Infrequent Access (IA)",
             "url": "https://aws.amazon.com/es/s3/storage-classes/#Infrequent_access"
           }
         ],
@@ -334,7 +336,7 @@
             "url": "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers#archive-access-tier"
           },
           {
-            "name": "Storage (Cool)</a",
+            "name": "Storage (Cool)",
             "url": "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers#cool-access-tier"
           }
         ],
@@ -344,7 +346,7 @@
             "url": "https://cloud.google.com/storage/archival/"
           },
           {
-            "name": "Nearline</a",
+            "name": "Nearline",
             "url": "https://cloud.google.com/storage/archival/"
           }
         ]
@@ -405,11 +407,11 @@
             "url": "https://aws.amazon.com/snowmobile/"
           },
           {
-            "name": "Snowball Edge</a",
+            "name": "Snowball Edge",
             "url": "https://aws.amazon.com/snowball-edge/"
           },
           {
-            "name": "AWS DataSync</a",
+            "name": "AWS DataSync",
             "url": "https://aws.amazon.com/es/datasync"
           }
         ],
@@ -419,7 +421,7 @@
             "url": "https://azure.microsoft.com/en-us/services/storage/databox/"
           },
           {
-            "name": "Import/Export</a",
+            "name": "Import/Export",
             "url": "https://docs.microsoft.com/es-es/azure/storage/common/storage-import-export-service"
           }
         ],
@@ -440,7 +442,7 @@
             "url": "https://aws.amazon.com/storagegateway/"
           },
           {
-            "name": "Glacier</a",
+            "name": "Glacier",
             "url": "https://aws.amazon.com/glacier/"
           }
         ],
@@ -513,7 +515,7 @@
             "url": "https://aws.amazon.com/es/rds/aurora/"
           },
           {
-            "name": "RDS</a",
+            "name": "RDS",
             "url": "https://aws.amazon.com/rds/"
           }
         ],
@@ -529,7 +531,7 @@
             "url": "https://cloud.google.com/spanner/"
           },
           {
-            "name": "Cloud SQL</a",
+            "name": "Cloud SQL",
             "url": "https://cloud.google.com/sql/"
           }
         ]
@@ -556,7 +558,7 @@
             "url": "https://cloud.google.com/bigtable/"
           },
           {
-            "name": "Cloud Datastore</a",
+            "name": "Cloud Datastore",
             "url": "https://cloud.google.com/datastore/"
           }
         ]
@@ -571,7 +573,7 @@
             "url": "https://aws.amazon.com/es/simpledb/"
           },
           {
-            "name": "DynamoDB</a",
+            "name": "DynamoDB",
             "url": "https://aws.amazon.com/es/dynamodb/"
           }
         ],
@@ -854,7 +856,7 @@
                   },
                   {
                       "valor": 150,
-                      "precio": 0.09
+                      "precio": 0.098
                   },
                   {
                       "valor": 500,
@@ -884,7 +886,7 @@
                   },
                   {
                       "valor": 150,
-                      "precio": 0.09
+                      "precio": 0.098
                   },
                   {
                       "valor": 500,
@@ -940,19 +942,19 @@
                   },
                   {
                       "valor": 50,
-                      "precio": 0.098
+                      "precio": 0.0988
                   },
                   {
                       "valor": 150,
-                      "precio": 0.094
+                      "precio": 0.0984
                   },
                   {
                       "valor": 500,
-                      "precio": 0.092
+                      "precio": 0.0982
                   },
                   {
                       "valor": 1024,
-                      "precio": 0.09
+                      "precio": 0.098
                   },
                   {
                       "valor": 5120,
@@ -974,11 +976,11 @@
                   },
                   {
                       "valor": 150,
-                      "precio": 0.095
+                      "precio": 0.0985
                   },
                   {
                       "valor": 500,
-                      "precio": 0.09
+                      "precio": 0.098
                   },
                   {
                       "valor": 1024,
@@ -1213,7 +1215,7 @@
             "url": "https://aws.amazon.com/cloudformation/"
           },
           {
-            "name": "OpsWorks (Chef-based)</a",
+            "name": "OpsWorks (Chef-based)",
             "url": "https://aws.amazon.com/opsworks/"
           }
         ],
@@ -1223,11 +1225,11 @@
             "url": "https://azure.microsoft.com/documentation/articles/virtual-machines-windows-extensions-features/"
           },
           {
-            "name": "Resource Manager</a",
+            "name": "Resource Manager",
             "url": "https://azure.microsoft.com/features/resource-manager/"
           },
           {
-            "name": "Azure Automation</a",
+            "name": "Azure Automation",
             "url": "https://azure.microsoft.com/services/automation/"
           }
         ],
@@ -1248,11 +1250,11 @@
             "url": "https://aws.amazon.com/console/"
           },
           {
-            "name": "X-Ray</a",
+            "name": "X-Ray",
             "url": "https://aws.amazon.com/xray/"
           },
           {
-            "name": "CloudWatch</a",
+            "name": "CloudWatch",
             "url": "https://aws.amazon.com/cloudwatch/"
           }
         ],
@@ -1262,11 +1264,11 @@
             "url": "https://docs.microsoft.com/es-es/azure/azure-monitor/app/app-insights-overview"
           },
           {
-            "name": "Azure Monitor</a",
+            "name": "Azure Monitor",
             "url": "https://azure.microsoft.com/services/monitor/"
           },
           {
-            "name": "Azure Portal</a",
+            "name": "Azure Portal",
             "url": "https://azure.microsoft.com/features/azure-portal/"
           }
         ],
@@ -1276,19 +1278,19 @@
             "url": "https://cloud.google.com/error-reporting/"
           },
           {
-            "name": "Trace</a",
+            "name": "Trace",
             "url": "https://cloud.google.com/trace/"
           },
           {
-            "name": "Debugger</a",
+            "name": "Debugger",
             "url": "https://cloud.google.com/debugger/"
           },
           {
-            "name": "Cloud Shell</a",
+            "name": "Cloud Shell",
             "url": "https://cloud.google.com/cloud-shell/"
           },
           {
-            "name": "Stackdriver Monitoring</a",
+            "name": "Stackdriver Monitoring",
             "url": "https://cloud.google.com/monitoring/"
           }
         ]
@@ -1315,7 +1317,7 @@
             "url": "https://cloud.google.com/billing/"
           },
           {
-            "name": "Stackdriver Monitoring</a",
+            "name": "Stackdriver Monitoring",
             "url": "https://cloud.google.com/monitoring/"
           }
         ]
@@ -1330,11 +1332,11 @@
             "url": "https://aws.amazon.com/premiumsupport/phd/"
           },
           {
-            "name": "Systems Manager</a",
+            "name": "Systems Manager",
             "url": "https://aws.amazon.com/systems-manager/"
           },
           {
-            "name": "Application Discovery Service</a",
+            "name": "Application Discovery Service",
             "url": "https://aws.amazon.com/application-discovery/"
           }
         ],
@@ -1344,15 +1346,15 @@
             "url": "http://storageexplorer.com/"
           },
           {
-            "name": "Resource Health</a",
+            "name": "Resource Health",
             "url": "https://docs.microsoft.com/en-us/azure/resource-health/resource-health-overview"
           },
           {
-            "name": "Operations Management Suite</a",
+            "name": "Operations Management Suite",
             "url": "https://www.microsoft.com/cloud-platform/operations-management-suite"
           },
           {
-            "name": "Log Analytics</a",
+            "name": "Log Analytics",
             "url": "https://azure.microsoft.com/services/log-analytics"
           }
         ],
@@ -1379,7 +1381,7 @@
             "url": "https://azure.microsoft.com/services/monitor/"
           },
           {
-            "name": "Log Analytics</a",
+            "name": "Log Analytics",
             "url": "https://azure.microsoft.com/services/log-analytics"
           }
         ],
@@ -1423,7 +1425,7 @@
             "url": "https://aws.amazon.com/organizations/"
           },
           {
-            "name": "Identity and Access Management (IAM)</a",
+            "name": "Identity and Access Management (IAM)",
             "url": "https://aws.amazon.com/iam/"
           }
         ],
@@ -1433,7 +1435,7 @@
             "url": "https://www.microsoft.com/cloud-platform/azure-active-directory"
           },
           {
-            "name": "Active Directory</a",
+            "name": "Active Directory",
             "url": "https://azure.microsoft.com/documentation/articles/role-based-access-control-configure/"
           }
         ],
@@ -1443,7 +1445,7 @@
             "url": "https://cloud.google.com/iap/"
           },
           {
-            "name": "Cloud IAM</a",
+            "name": "Cloud IAM",
             "url": "https://cloud.google.com/iam/"
           }
         ]
@@ -1481,7 +1483,7 @@
             "url": "https://aws.amazon.com/es/cloudhsm/"
           },
           {
-            "name": "AWS Key Management Service</a",
+            "name": "AWS Key Management Service",
             "url": "https://aws.amazon.com/kms/"
           }
         ],
@@ -2717,7 +2719,7 @@
             "url": "https://aws.amazon.com/es/macie/"
           },
           {
-            "name": "GuardDuty</a",
+            "name": "GuardDuty",
             "url": "https://aws.amazon.com/es/guardduty/"
           }
         ],
@@ -4793,7 +4795,7 @@
             "url": "https://firebase.google.com/docs/test-lab/"
           },
           {
-            "name": "Cloud Endpoints</a",
+            "name": "Cloud Endpoints",
             "url": "https://cloud.google.com/endpoints/"
           }
         ]
@@ -4860,7 +4862,7 @@
             "url": "https://azure.microsoft.com/documentation/articles/powershell-install-configure/"
           },
           {
-            "name": "Command Line Interface (CLI)</a",
+            "name": "Command Line Interface (CLI)",
             "url": "https://azure.microsoft.com/documentation/articles/xplat-cli-install/"
           }
         ],
@@ -4870,7 +4872,7 @@
             "url": "https://cloud.google.com/sdk/"
           },
           {
-            "name": "Cloud Tools for Powershell</a",
+            "name": "Cloud Tools for Powershell",
             "url": "https://cloud.google.com/powershell/"
           }
         ]
@@ -4931,7 +4933,7 @@
             "url": "https://aws.amazon.com/codepipeline/"
           },
           {
-            "name": "CodeDeploy</a",
+            "name": "CodeDeploy",
             "url": "https://aws.amazon.com/codedeploy/"
           }
         ],
@@ -4941,7 +4943,7 @@
             "url": "https://azure.microsoft.com/es-es/services/devops/pipelines/"
           },
           {
-            "name": "Azure DevOps</a",
+            "name": "Azure DevOps",
             "url": "https://azure.microsoft.com/services/devops/"
           }
         ],
@@ -4991,7 +4993,7 @@
             "url": "https://azure.microsoft.com/features/xamarin/"
           },
           {
-            "name": "Mobile Apps</a",
+            "name": "Mobile Apps",
             "url": "https://azure.microsoft.com/services/app-service/mobile/"
           }
         ],
@@ -5018,7 +5020,7 @@
             "url": "https://azure.microsoft.com/services/application-insights/"
           },
           {
-            "name": "HockeyApp</a",
+            "name": "HockeyApp",
             "url": "https://azure.microsoft.com/services/hockeyapp/"
           }
         ],
@@ -5228,7 +5230,7 @@
                 },
                 "US East (N. Virginia)": {
                   "search.small": 0.059,
-                  "search.medium": 0.094,
+                  "search.medium": 0.0984,
                   "search.large": 0.188,
                   "search.xlarge": 0.376,
                   "search.2xlarge": 0.752
@@ -5242,7 +5244,7 @@
                 },
                 "US West (Oregon)": {
                   "search.small": 0.059,
-                  "search.medium": 0.094,
+                  "search.medium": 0.0984,
                   "search.large": 0.188,
                   "search.xlarge": 0.376,
                   "search.2xlarge": 0.752
@@ -5380,7 +5382,7 @@
             "url": "https://azure.microsoft.com/services/hdinsight/"
           },
           {
-            "name": "Azure Databricks</a",
+            "name": "Azure Databricks",
             "url": "https://azure.microsoft.com/services/databricks/"
           }
         ],
@@ -5407,11 +5409,11 @@
             "url": "https://azure.microsoft.com/services/data-lake-analytics/"
           },
           {
-            "name": "Data Lake Store</a",
+            "name": "Data Lake Store",
             "url": "https://azure.microsoft.com/es-es/services/storage/data-lake-storage/"
           },
           {
-            "name": "Stream Analytics</a",
+            "name": "Stream Analytics",
             "url": "https://azure.microsoft.com/es-es/services/stream-analytics/"
           }
         ],
@@ -5432,7 +5434,7 @@
             "url": "https://aws.amazon.com/es/kinesis/data-streams/"
           },
           {
-            "name": "Kinesis Data Firehose</a",
+            "name": "Kinesis Data Firehose",
             "url": "https://aws.amazon.com/es/kinesis/data-firehose/"
           }
         ],
@@ -5583,7 +5585,7 @@
             "url": "https://aws.amazon.com/es/glue/"
           },
           {
-            "name": "Data Pipeline</a",
+            "name": "Data Pipeline",
             "url": "https://aws.amazon.com/es/athena/"
           }
         ],
@@ -5593,7 +5595,7 @@
             "url": "https://azure.microsoft.com/services/data-catalog/"
           },
           {
-            "name": "Data Factory</a",
+            "name": "Data Factory",
             "url": "https://azure.microsoft.com/services/data-factory/"
           }
         ],
@@ -5643,7 +5645,7 @@
             "url": "https://azure.microsoft.com/services/machine-learning-services/"
           },
           {
-            "name": "Azure Machine Learning Studio</a",
+            "name": "Azure Machine Learning Studio",
             "url": "https://azure.microsoft.com/services/machine-learning/"
           }
         ],
@@ -5670,7 +5672,7 @@
             "url": "https://azure.microsoft.com/services/cognitive-services/speaker-recognition/"
           },
           {
-            "name": "Bing Speech API</a",
+            "name": "Bing Speech API",
             "url": "https://azure.microsoft.com/services/cognitive-services/speech/"
           }
         ],
@@ -5720,11 +5722,11 @@
             "url": "https://azure.microsoft.com/services/cognitive-services/emotion/"
           },
           {
-            "name": "Face API</a",
+            "name": "Face API",
             "url": "https://azure.microsoft.com/services/cognitive-services/face/"
           },
           {
-            "name": "Computer Vision</a",
+            "name": "Computer Vision",
             "url": "https://azure.microsoft.com/services/cognitive-services/computer-vision/"
           }
         ],
@@ -5738,25 +5740,187 @@
     },
     {
       "servicio": "Procesamiento de lenguaje natural",
+      "etiquetas": ["lenguaje", "procesamiento", "comprehend", "luis", "cloud natural language"],
       "ofertas": {
-        "AWS": [
-          {
+        "AWS": {
+          "Comprehend": {
             "name": "Amazon Comprehend",
-            "url": "https://aws.amazon.com/es/comprehend/"
+            "url": "https://aws.amazon.com/es/comprehend/",
+            "precio": {
+              "unidad": "100 caracteres",
+              "generico": {
+                "extraccionClaves": [
+                  {
+                    "valor": 0.0001,
+                    "limite": 10000000
+                  },
+                  {
+                    "valor": 0.00005,
+                    "limite": 50000000
+                  },
+                  {
+                    "valor": 0.000025,
+                    "limite": 0
+                  }
+                ],
+                "analisisOpiniones": [
+                  {
+                    "valor": 0.0001,
+                    "limite": 10000000
+                  },
+                  {
+                    "valor": 0.00005,
+                    "limite": 50000000
+                  },
+                  {
+                    "valor": 0.000025,
+                    "limite": 0
+                  }
+                ],
+                "opinionFocalizada": [
+                  {
+                    "valor": 0.0001,
+                    "limite": 10000000
+                  },
+                  {
+                    "valor": 0.00005,
+                    "limite": 50000000
+                  },
+                  {
+                    "valor": 0.000025,
+                    "limite": 0
+                  }
+                ],
+                "reconocimientoEntidades": [
+                  {
+                    "valor": 0.0001,
+                    "limite": 10000000
+                  },
+                  {
+                    "valor": 0.00005,
+                    "limite": 50000000
+                  },
+                  {
+                    "valor": 0.000025,
+                    "limite": 0
+                  }
+                ],
+                "deteccionIdiomas": [
+                  {
+                    "valor": 0.0001,
+                    "limite": 10000000
+                  },
+                  {
+                    "valor": 0.00005,
+                    "limite": 50000000
+                  },
+                  {
+                    "valor": 0.000025,
+                    "limite": 0
+                  }
+                ],
+                "deteccionEventosPorTipo": [
+                  {
+                    "valor": 0.003,
+                    "limite": 10000000
+                  },
+                  {
+                    "valor": 0.0015,
+                    "limite": 50000000
+                  },
+                  {
+                    "valor": 0.00075,
+                    "limite": 0
+                  }
+                ],
+                "analisisSintactico": [
+                  {
+                    "valor": 0.00005,
+                    "limite": 10000000
+                  },
+                  {
+                    "valor": 0.000025,
+                    "limite": 50000000
+                  },
+                  {
+                    "valor": 0.0000125,
+                    "limite": 0
+                  }
+                ],
+                "deteccionPII": [
+                  {
+                    "valor": 0.0001,
+                    "limite": 10000000
+                  },
+                  {
+                    "valor": 0.00005,
+                    "limite": 50000000
+                  },
+                  {
+                    "valor": 0.000025,
+                    "limite": 100000000
+                  },
+                  {
+                    "valor": 0.000005,
+                    "limite": 0
+                  }
+                ],
+                "contienePII": [
+                  {
+                    "valor": 0.000002,
+                    "limite": 10000000
+                  },
+                  {
+                    "valor": 0.000001,
+                    "limite": 50000000
+                  },
+                  {
+                    "valor": 0.0000005,
+                    "limite": 100000000
+                  },
+                  {
+                    "valor": 0.0000001,
+                    "limite": 0
+                  }
+                ]
+              },
+              "personalizado": {
+                "documentos": {
+                  "valor": 0.0005,
+                  "min": 3
+                },
+                "clasificacionAsincrona": {
+                  "valor": 0.0005,
+                  "min": 3
+                },
+                "clasificacionSincrona": {
+                  "valor": 0.0005,
+                  "unidad": "segundos"
+                },
+                "entrenamiento": {
+                  "valor": 3,
+                  "unidad": "horas"
+                },
+                "administracion": {
+                  "valor": 0.5,
+                  "unidad": "mes"
+                }
+              }
+            }
           }
-        ],
-        "AZURE": [
-          {
+        },
+        "AZURE": {
+          "LUIS": {
             "name": "Language Understanding Intelligent Service (LUIS)",
             "url": "https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/"
           }
-        ],
-        "GCP": [
-          {
+        },
+        "GCP": {
+          "CNL": {
             "name": "Cloud Natural Language",
             "url": "https://cloud.google.com/natural-language/"
           }
-        ]
+        }
       }
     },
     {
@@ -6036,11 +6200,11 @@
             "url": "https://aws.amazon.com/es/chime/"
           },
           {
-            "name": "WorkDocs</a",
+            "name": "WorkDocs",
             "url": "https://aws.amazon.com/es/workdocs/"
           },
           {
-            "name": "WorkMail</a",
+            "name": "WorkMail",
             "url": "https://aws.amazon.com/es/workmail/"
           }
         ],
@@ -6230,9 +6394,9 @@
                   }
                 },
                 "Asia Pacific (Singapore)": {
-                  "precioAWS": 0.09,
+                  "precioAWS": 0.098,
                   "precioOutAWS": {
-                    "<1GB": 0.09,
+                    "<1GB": 0.098,
                     ">1GB": 0.13
                   }
                 },
@@ -6244,9 +6408,9 @@
                   }
                 },
                 "Asia Pacific (Tokyo)": {
-                  "precioAWS": 0.09,
+                  "precioAWS": 0.098,
                   "precioOutAWS": {
-                    "<1GB": 0.09,
+                    "<1GB": 0.098,
                     ">1GB": 0.124
                   }
                 },
@@ -7100,7 +7264,7 @@
                     "stream.standard.small": {
                       "cpu": 1,
                       "ram": 2,
-                      "precio": 0.09
+                      "precio": 0.098
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -7381,7 +7545,7 @@
                     "stream.standard.small": {
                       "cpu": 2,
                       "ram": 2,
-                      "precio": 0.098
+                      "precio": 0.0988
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -7400,7 +7564,7 @@
                     "stream.standard.small": {
                       "cpu": 1,
                       "ram": 2,
-                      "precio": 0.09
+                      "precio": 0.098
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -7520,7 +7684,7 @@
                       "cpu": 48,
                       "ram": 192,
                       "ramGPU": 64,
-                      "precio": 10.09
+                      "precio": 10.098
                     },
                     "stream.graphics.g4dn.16xlarge": {
                       "cpu": 64,
@@ -7681,7 +7845,7 @@
                     "stream.standard.small": {
                       "cpu": 2,
                       "ram": 2,
-                      "precio": 0.098
+                      "precio": 0.0988
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -7697,7 +7861,7 @@
                     "stream.standard.small": {
                       "cpu": 1,
                       "ram": 2,
-                      "precio": 0.09
+                      "precio": 0.098
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -8038,7 +8202,7 @@
                     "stream.standard.small": {
                       "cpu": 2,
                       "ram": 2,
-                      "precio": 0.098
+                      "precio": 0.0988
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -8054,7 +8218,7 @@
                     "stream.standard.small": {
                       "cpu": 1,
                       "ram": 2,
-                      "precio": 0.09
+                      "precio": 0.098
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -8395,7 +8559,7 @@
                     "stream.standard.small": {
                       "cpu": 2,
                       "ram": 2,
-                      "precio": 0.098
+                      "precio": 0.0988
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -8411,7 +8575,7 @@
                     "stream.standard.small": {
                       "cpu": 1,
                       "ram": 2,
-                      "precio": 0.09
+                      "precio": 0.098
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -8752,7 +8916,7 @@
                     "stream.standard.small": {
                       "cpu": 2,
                       "ram": 2,
-                      "precio": 0.098
+                      "precio": 0.0988
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -8777,7 +8941,7 @@
                     "stream.standard.small": {
                       "cpu": 1,
                       "ram": 2,
-                      "precio": 0.09
+                      "precio": 0.098
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -9118,7 +9282,7 @@
                     "stream.standard.small": {
                       "cpu": 2,
                       "ram": 2,
-                      "precio": 0.098
+                      "precio": 0.0988
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -9314,7 +9478,7 @@
                     "stream.standard.medium": {
                       "cpu": 2,
                       "ram": 4,
-                      "precio": 0.094
+                      "precio": 0.0984
                     },
                     "stream.standard.large": {
                       "cpu": 2,
@@ -9491,7 +9655,7 @@
                     "stream.standard.small": {
                       "cpu": 1,
                       "ram": 2,
-                      "precio": 0.09
+                      "precio": 0.098
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -9784,7 +9948,7 @@
                     "stream.standard.small": {
                       "cpu": 2,
                       "ram": 2,
-                      "precio": 0.098
+                      "precio": 0.0988
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -9815,7 +9979,7 @@
                     "stream.standard.small": {
                       "cpu": 1,
                       "ram": 2,
-                      "precio": 0.09
+                      "precio": 0.098
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -10072,7 +10236,7 @@
                     "stream.standard.small": {
                       "cpu": 2,
                       "ram": 2,
-                      "precio": 0.098
+                      "precio": 0.0988
                     },
                     "stream.standard.medium": {
                       "cpu": 2,
@@ -10469,6 +10633,4581 @@
             "url": ""
           }
         ]
+      }
+    },
+    {
+      "servicio": "Análisis, investigación y/o identificación de posibles problemas o actividades sospechosas.",
+      "etiquetas": ["analisis", "detective"],
+      "ofertas": {
+        "AWS": {
+          "Detective": {
+              "name": "Amazon Detective",
+              "url": "https://aws.amazon.com/es/detective/",
+              "precio": {
+                "US East (Ohio)": [
+                  {
+                    "valor": 2,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.5,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.25,
+                    "limite": 0
+                  }
+                ],
+                "US East (N. Virginia)": [
+                  {
+                    "valor": 2,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.5,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.25,
+                    "limite": 0
+                  }
+                ],
+                "US West (N. California)": [
+                  {
+                    "valor": 3.1,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.55,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.78,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.39,
+                    "limite": 0
+                  }
+                ],
+                "US West (Oregon)": [
+                  {
+                    "valor": 2,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.5,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.25,
+                    "limite": 0
+                  }
+                ],
+                "Africa (Cape Town)": [
+                  {
+                    "valor": 2.3,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.15,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.58,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.29,
+                    "limite": 0
+                  }
+                ],
+                "Asia Pacific (Hong Kong)": [
+                  {
+                    "valor": 2.7,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.35,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.68,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.34,
+                    "limite": 0
+                  }
+                ],
+                "Asia Pacific (Mumbai)": [
+                  {
+                    "valor": 2.5,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.25,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.63,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.31,
+                    "limite": 0
+                  }
+                ],
+                "Asia Pacific (Osaka)": [
+                  {
+                    "no service": 0
+                  }
+                ],
+                "Asia Pacific (Seoul)": [
+                  {
+                    "valor": 2.3,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.15,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.58,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.29,
+                    "limite": 0
+                  }
+                ],
+                "Asia Pacific (Singapore)": [
+                  {
+                    "valor": 3.1,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.55,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.78,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.39,
+                    "limite": 0
+                  }
+                ],
+                "Asia Pacific (Sydney)": [
+                  {
+                    "valor": 2.5,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.25,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.63,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.31,
+                    "limite": 0
+                  }
+                ],
+                "Asia Pacific (Tokyo)": [
+                  {
+                    "valor": 2.7,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.35,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.68,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.34,
+                    "limite": 0
+                  }
+                ],
+                "Canada (Central)": [
+                  {
+                    "valor": 2.3,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.15,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.58,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.29,
+                    "limite": 0
+                  }
+                ],
+                "China (Beijing)": [
+                  {
+                    "no service": 0
+                  }
+                ],
+                "China (Ningxia)": [
+                  {
+                    "no service": 0
+                  }
+                ],
+                "Europe (Frankfurt)": [
+                  {
+                    "valor": 2.7,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.35,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.68,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.34,
+                    "limite": 0
+                  }
+                ],
+                "Europe (Ireland)": [
+                  {
+                    "valor": 2,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.5,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.25,
+                    "limite": 0
+                  }
+                ],
+                "Europe (London)": [
+                  {
+                    "valor": 2.5,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.25,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.63,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.31,
+                    "limite": 0
+                  }
+                ],
+                "Europe (Paris)": [
+                  {
+                    "valor": 2.7,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.35,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.68,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.34,
+                    "limite": 0
+                  }
+                ],
+                "Europe (Stockholm)": [
+                  {
+                    "valor": 2.7,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.35,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.68,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.34,
+                    "limite": 0
+                  }
+                ],
+                "Europe (Milan)": [
+                  {
+                    "valor": 2.7,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.35,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.68,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.34,
+                    "limite": 0
+                  }
+                ],
+                "Middle East (Bahrain)": [
+                  {
+                    "valor": 2.7,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1.35,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.68,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.34,
+                    "limite": 0
+                  }
+                ],
+                "South America (São Paulo)": [
+                  {
+                    "valor": 4.5,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 2.25,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 1.13,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.56,
+                    "limite": 0
+                  }
+                ],
+                "AWS GovCloud (US-West)": [
+                  {
+                    "valor": 2,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.5,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.25,
+                    "limite": 0
+                  }
+                ],
+                "AWS GovCloud (US-East)": [
+                  {
+                    "valor": 2,
+                    "limite": 1000
+                  },
+                  {
+                    "valor": 1,
+                    "limite": 5000
+                  },
+                  {
+                    "valor": 0.5,
+                    "limite": 10000
+                  },
+                  {
+                    "valor": 0.25,
+                    "limite": 0
+                  }
+                ]
+              }
+            }
+          },
+        "AZURE": {
+          "-": {
+            "name": "",
+            "url": ""
+          }
+        },
+        "GCP": {
+          "-": {
+            "name": "",
+            "url": ""
+          }
+        }
+      }
+    },
+    {
+      "servicio": "Base de datos con JSON",
+      "etiquetas": ["json", "base de datos", "bbdd", "basededatos", "basedatos"],
+      "ofertas": {
+        "AWS": {
+          "DocumentDB": {
+              "name": "Amazon DocumentDB",
+              "url": "https://aws.amazon.com/es/documentdb/",
+              "precio": {
+                "onDemand": {
+                  "US East (Ohio)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.26315
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.5263
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.0526
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.1052
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 4.20964
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 6.3156
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 8.41928
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.277
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.554
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.108
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.216
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 4.4312
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 6.648
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 8.8624
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 13.296
+                    },
+                    "db.r4.large": {
+                      "ram": 15.25,
+                      "cpu": 2,
+                      "precio": 0.277
+                    },
+                    "db.r4.xlarge": {
+                      "ram": 30.5,
+                      "cpu": 4,
+                      "precio": 0.554
+                    },
+                    "db.r4.2xlarge": {
+                      "ram": 61,
+                      "cpu": 8,
+                      "precio": 1.108
+                    },
+                    "db.r4.4xlarge": {
+                      "ram": 122,
+                      "cpu": 16,
+                      "precio": 2.216
+                    },
+                    "db.r4.8xlarge": {
+                      "ram": 244,
+                      "cpu": 32,
+                      "precio": 4.432
+                    },
+                    "db.r4.16xlarge": {
+                      "ram": 488,
+                      "cpu": 64,
+                      "precio": 8.864
+                    }
+                  },
+                  "US East (N. Virginia)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.26315
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.5263
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.0526
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.1052
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 4.20964
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 6.3156
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 8.41928
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.277
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.554
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.108
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.216
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 4.4312
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 6.648
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 8.8624
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 13.296
+                    },
+                    "db.r4.large": {
+                      "ram": 15.25,
+                      "cpu": 2,
+                      "precio": 0.277
+                    },
+                    "db.r4.xlarge": {
+                      "ram": 30.5,
+                      "cpu": 4,
+                      "precio": 0.554
+                    },
+                    "db.r4.2xlarge": {
+                      "ram": 61,
+                      "cpu": 8,
+                      "precio": 1.108
+                    },
+                    "db.r4.4xlarge": {
+                      "ram": 122,
+                      "cpu": 16,
+                      "precio": 2.216
+                    },
+                    "db.r4.8xlarge": {
+                      "ram": 244,
+                      "cpu": 32,
+                      "precio": 4.432
+                    },
+                    "db.r4.16xlarge": {
+                      "ram": 488,
+                      "cpu": 64,
+                      "precio": 8.864
+                    }
+                  },
+                  "US West (N. California)": {
+                    "no service": 0
+                  },
+                  "US West (Oregon)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.26315
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.5263
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.0526
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.1052
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 4.20964
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 6.3156
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 8.41928
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.277
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.554
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.108
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.216
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 4.4312
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 6.648
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 8.8624
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 13.296
+                    },
+                    "db.r4.large": {
+                      "ram": 15.25,
+                      "cpu": 2,
+                      "precio": 0.277
+                    },
+                    "db.r4.xlarge": {
+                      "ram": 30.5,
+                      "cpu": 4,
+                      "precio": 0.554
+                    },
+                    "db.r4.2xlarge": {
+                      "ram": 61,
+                      "cpu": 8,
+                      "precio": 1.108
+                    },
+                    "db.r4.4xlarge": {
+                      "ram": 122,
+                      "cpu": 16,
+                      "precio": 2.216
+                    },
+                    "db.r4.8xlarge": {
+                      "ram": 244,
+                      "cpu": 32,
+                      "precio": 4.432
+                    },
+                    "db.r4.16xlarge": {
+                      "ram": 488,
+                      "cpu": 64,
+                      "precio": 8.864
+                    }
+                  },
+                  "Africa (Cape Town)": {
+                    "no service": 0
+                  },
+                  "Asia Pacific (Hong Kong)": {
+                    "no service": 0
+                  },
+                  "Asia Pacific (Mumbai)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.29925
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.5985
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.197
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.394
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 4.79028
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.182
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 9.58056
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.315
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.63
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.26
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.52
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.0424
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.56
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.0848
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 15.12
+                    }
+                  },
+                  "Asia Pacific (Osaka)": {
+                    "no service": 0
+                  },
+                  "Asia Pacific (Seoul)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.3173
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.6346
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.2692
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.5384
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.0806
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.6152
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.1612
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.334
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.668
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.336
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.672
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.348
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 8.016
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.696
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 16.032
+                    }
+                  },
+                  "Asia Pacific (Singapore)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.3173
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.6346
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.2692
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.5384
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.0806
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.6152
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.1612
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.334
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.668
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.336
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.672
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.348
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 8.016
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.696
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 16.032
+                    }
+                  },
+                  "Asia Pacific (Sydney)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.3173
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.6346
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.2692
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.5384
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.0806
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.6152
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.1612
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.334
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.668
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.336
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.672
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.348
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 8.016
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.696
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 16.032
+                    }
+                  },
+                  "Asia Pacific (Tokyo)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.3173
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.6346
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.2692
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.5384
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.0806
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.6152
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.1612
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.334
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.668
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.336
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.672
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.348
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 8.016
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.696
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 16.032
+                    }
+                  },
+                  "Canada (Central)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.2907
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.5814
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.1628
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.3256
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 4.64512
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 6.9768
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 9.29024
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.306
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.612
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.224
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.448
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 4.8896
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.344
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 9.7792
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 14.688
+                    }
+                  },
+                  "China (Beijing)": {
+                    "no service": 0
+                  },
+                  "China (Ningxia)": {
+                    "no service": 0
+                  },
+                  "Europe (Frankfurt)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.3173
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.6346
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.2692
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.5384
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.0806
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.6152
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.1612
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.334
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.668
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.336
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.672
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.348
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 8.016
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.696
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 16.032
+                    }
+                  },
+                  "Europe (Ireland)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.2907
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.5814
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.1628
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.3256
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 4.64512
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 6.9768
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 9.29024
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.306
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.612
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.224
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.448
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 4.8896
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.344
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 9.7792
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 14.688
+                    },
+                    "db.r4.large": {
+                      "ram": 15.25,
+                      "cpu": 2,
+                      "precio": 0.306
+                    },
+                    "db.r4.xlarge": {
+                      "ram": 30.5,
+                      "cpu": 4,
+                      "precio": 0.612
+                    },
+                    "db.r4.2xlarge": {
+                      "ram": 61,
+                      "cpu": 8,
+                      "precio": 1.224
+                    },
+                    "db.r4.4xlarge": {
+                      "ram": 122,
+                      "cpu": 16,
+                      "precio": 2.448
+                    },
+                    "db.r4.8xlarge": {
+                      "ram": 244,
+                      "cpu": 32,
+                      "precio": 4.896
+                    },
+                    "db.r4.16xlarge": {
+                      "ram": 488,
+                      "cpu": 64,
+                      "precio": 9.792
+                    }                    
+                  },
+                  "Europe (London)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.30875
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.6175
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.235
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.47
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 4.93544
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.41
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 9.87088
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.325
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.65
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.3
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.6
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.1952
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.8
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.3904
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 15.6
+                    }
+                  },
+                  "Europe (Paris)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.304
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.608
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.216
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.432
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 4.86286
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.296
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 9.72572
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.32
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.64
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.28
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.56
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.1188
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.68
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.2376
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 15.36
+                    }
+                  },
+                  "Europe (Stockholm)": {
+                    "no service": 0
+                  },
+                  "Europe (Milan)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.30495
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.6099
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.2198
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.4396
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 4.877376
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.31785
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 9.754752
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.321
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.642
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.284
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.568
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.13408
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.703
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.26816
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 15.405
+                    }
+                  },
+                  "Middle East (Bahrain)": {
+                    "no service": 0
+                  },
+                  "South America (São Paulo)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.54435
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 1.0887
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 2.1774
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 4.35575
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 8.7096
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 13.0663
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 17.4192
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.573
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 1.146
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 2.292
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 4.585
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 9.168
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 13.754
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 18.336
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 27.509
+                    }
+                  },
+                  "AWS GovCloud (US-West)": {
+                    "db.r6g.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.3173
+                    },
+                    "db.r6g.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.63555
+                    },
+                    "db.r6g.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.27015
+                    },
+                    "db.r6g.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.5403
+                    },
+                    "db.r6g.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.0806
+                    },
+                    "db.r6g.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 7.62185
+                    },
+                    "db.r6g.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.1612
+                    },
+                    "db.r5.large": {
+                      "ram": 16,
+                      "cpu": 2,
+                      "precio": 0.334
+                    },
+                    "db.r5.xlarge": {
+                      "ram": 32,
+                      "cpu": 4,
+                      "precio": 0.669
+                    },
+                    "db.r5.2xlarge": {
+                      "ram": 64,
+                      "cpu": 8,
+                      "precio": 1.337
+                    },
+                    "db.r5.4xlarge": {
+                      "ram": 128,
+                      "cpu": 16,
+                      "precio": 2.674
+                    },
+                    "db.r5.8xlarge": {
+                      "ram": 256,
+                      "cpu": 32,
+                      "precio": 5.348
+                    },
+                    "db.r5.12xlarge": {
+                      "ram": 384,
+                      "cpu": 48,
+                      "precio": 8.023
+                    },
+                    "db.r5.16xlarge": {
+                      "ram": 512,
+                      "cpu": 64,
+                      "precio": 10.696
+                    },
+                    "db.r5.24xlarge": {
+                      "ram": 768,
+                      "cpu": 96,
+                      "precio": 16.047
+                    }
+                  },
+                  "AWS GovCloud (US-East)": {
+                    "no service": 0
+                  }
+                },
+                "e/s": {
+                  "US East (Ohio)": {
+                    "almacenamiento": {
+                      "valor": 0.1,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.2,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "US East (N. Virginia)": {
+                    "almacenamiento": {
+                      "valor": 0.1,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.2,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "US West (N. California)": {
+                    "no service": 0
+                  },
+                  "US West (Oregon)": {
+                    "almacenamiento": {
+                      "valor": 0.1,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.2,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "Africa (Cape Town)": {
+                    "no service": 0
+                  },
+                  "Asia Pacific (Hong Kong)": {
+                    "no service": 0
+                  },
+                  "Asia Pacific (Mumbai)": {
+                    "almacenamiento": {
+                      "valor": 0.11,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.22,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "Asia Pacific (Osaka)": {
+                    "no service": 0
+                  },
+                  "Asia Pacific (Seoul)": {
+                    "almacenamiento": {
+                      "valor": 0.12,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.24,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "Asia Pacific (Singapore)": {
+                    "almacenamiento": {
+                      "valor": 0.11,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.22,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "Asia Pacific (Sydney)": {
+                    "almacenamiento": {
+                      "valor": 0.11,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.22,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "Asia Pacific (Tokyo)": {
+                    "almacenamiento": {
+                      "valor": 0.12,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.24,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "Canada (Central)": {
+                    "almacenamiento": {
+                      "valor": 0.11,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.22,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "China (Beijing)": {
+                    "no service": 0
+                  },
+                  "China (Ningxia)": {
+                    "no service": 0
+                  },
+                  "Europe (Frankfurt)": {
+                    "almacenamiento": {
+                      "valor": 0.119,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.22,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "Europe (Ireland)": {
+                    "almacenamiento": {
+                      "valor": 0.11,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.22,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "Europe (London)": {
+                    "almacenamiento": {
+                      "valor": 0.116,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.232,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "Europe (Paris)": {
+                    "almacenamiento": {
+                      "valor": 0.116,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.232,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "Europe (Stockholm)": {
+                    "no service": 0
+                  },
+                  "Europe (Milan)": {
+                    "almacenamiento": {
+                      "valor": 0.116,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.232,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "Middle East (Bahrain)": {
+                    "no service": 0
+                  },
+                  "South America (São Paulo)": {
+                    "almacenamiento": {
+                      "valor": 0.19,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.28,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "AWS GovCloud (US-West)": {
+                    "almacenamiento": {
+                      "valor": 0.13,
+                      "limite": "GB"
+                    },
+                    "tasa": {
+                      "valor": 0.26,
+                      "limite": "millon solicitudes"
+                    }
+                  },
+                  "AWS GovCloud (US-East)": {
+                    "no service": 0
+                  }
+                },
+                "clusteres": {
+                  "US East (Ohio)": {
+                    "escrituras": {
+                      "valor": 0.2,
+                      "limite": "millon de e/s de escrituras replicadas"
+                    }
+                  },
+                  "US East (N. Virginia)": {
+                    "escrituras": {
+                      "valor": 0.2,
+                      "limite": "millon de e/s de escrituras replicadas"
+                    }
+                  },
+                  "US West (N. California)": {
+                    "no service": 0
+                  },
+                  "US West (Oregon)": {
+                    "escrituras": {
+                      "valor": 0.2,
+                      "limite": "millon de e/s de escrituras replicadas"
+                    }
+                  },
+                  "Africa (Cape Town)": {
+                    "no service": 0
+                  },
+                  "Asia Pacific (Hong Kong)": {
+                    "no service": 0
+                  },
+                  "Asia Pacific (Mumbai)": {
+                    "escrituras": {
+                      "valor": 0.22,
+                      "limite": "millon de e/s de escrituras replicadas"
+                    }
+                  },
+                  "Asia Pacific (Osaka)": {
+                    "no service": 0
+                  },
+                  "Asia Pacific (Seoul)": {
+                    "escrituras": {
+                      "valor": 0.24,
+                      "limite": "millon de e/s de escrituras replicadas"
+                    }
+                  },
+                  "Asia Pacific (Singapore)": {
+                    "escrituras": {
+                      "valor": 0.22,
+                      "limite": "millon de e/s de escrituras replicadas"
+                    }
+                  },
+                  "Asia Pacific (Sydney)": {
+                    "escrituras": {
+                      "valor": 0.22,
+                      "limite": "millon de e/s de escrituras replicadas"
+                    }
+                  },
+                  "Asia Pacific (Tokyo)": {
+                    "escrituras": {
+                      "valor": 0.24,
+                      "limite": "millon de e/s de escrituras replicadas"
+                    }
+                  },
+                  "Canada (Central)": {
+                    "escrituras": {
+                      "valor": 0.22,
+                      "limite": "millon de e/s de escrituras replicadas"
+                    }
+                  },
+                  "China (Beijing)": {
+                    "no service": 0
+                  },
+                  "China (Ningxia)": {
+                    "no service": 0
+                  },
+                  "Europe (Frankfurt)": {
+                    "escrituras": {
+                      "valor": 0.22,
+                      "limite": "millon de e/s de escrituras replicadas"
+                    }
+                  },
+                  "Europe (Ireland)": {
+                    "escrituras": {
+                      "valor": 0.22,
+                      "limite": "millon de e/s de escrituras replicadas"
+                    }
+                  },
+                  "Europe (London)": {
+                    "escrituras": {
+                      "valor": 0.2,
+                      "limite": "millon de e/s de escrituras replicadas"
+                    }
+                  },
+                  "Europe (Paris)": {
+                    "escrituras": {
+                      "valor": 0.22,
+                      "limite": "millon de e/s de escrituras replicadas"
+                    }
+                  },
+                  "Europe (Stockholm)": {
+                    "no service": 0
+                  },
+                  "Europe (Milan)": {
+                    "no service": 0
+                  },
+                  "Middle East (Bahrain)": {
+                    "no service": 0
+                  },
+                  "South America (São Paulo)": {
+                    "no service": 0
+                  },
+                  "AWS GovCloud (US-West)": {
+                    "no service": 0
+                  },
+                  "AWS GovCloud (US-East)": {
+                    "no service": 0
+                  }
+                },
+                "copiasSeguridad": {
+                  "US East (Ohio)": {
+                    "backup": {
+                      "valor": 0.021,
+                      "limite": "GB"
+                    }
+                  },
+                  "US East (N. Virginia)": {
+                    "backup": {
+                      "valor": 0.021,
+                      "limite": "GB"
+                    }
+                  },
+                  "US West (N. California)": {
+                    "no service": 0
+                  },
+                  "US West (Oregon)": {
+                    "backup": {
+                      "valor": 0.021,
+                      "limite": "GB"
+                    }
+                  },
+                  "Africa (Cape Town)": {
+                    "no service": 0
+                  },
+                  "Asia Pacific (Hong Kong)": {
+                    "no service": 0
+                  },
+                  "Asia Pacific (Mumbai)": {
+                    "backup": {
+                      "valor": 0.023,
+                      "limite": "GB"
+                    }
+                  },
+                  "Asia Pacific (Osaka)": {
+                    "no service": 0
+                  },
+                  "Asia Pacific (Seoul)": {
+                    "backup": {
+                      "valor": 0.023,
+                      "limite": "GB"
+                    }
+                  },
+                  "Asia Pacific (Singapore)": {
+                    "backup": {
+                      "valor": 0.023,
+                      "limite": "GB"
+                    }
+                  },
+                  "Asia Pacific (Sydney)": {
+                    "backup": {
+                      "valor": 0.023,
+                      "limite": "GB"
+                    }
+                  },
+                  "Asia Pacific (Tokyo)": {
+                    "backup": {
+                      "valor": 0.023,
+                      "limite": "GB"
+                    }
+                  },
+                  "Canada (Central)": {
+                    "backup": {
+                      "valor": 0.023,
+                      "limite": "GB"
+                    }
+                  },
+                  "China (Beijing)": {
+                    "no service": 0
+                  },
+                  "China (Ningxia)": {
+                    "no service": 0
+                  },
+                  "Europe (Frankfurt)": {
+                    "backup": {
+                      "valor": 0.023,
+                      "limite": "GB"
+                    }
+                  },
+                  "Europe (Ireland)": {
+                    "backup": {
+                      "valor": 0.021,
+                      "limite": "GB"
+                    }
+                  },
+                  "Europe (London)": {
+                    "backup": {
+                      "valor": 0.022,
+                      "limite": "GB"
+                    }
+                  },
+                  "Europe (Paris)": {
+                    "backup": {
+                      "valor": 0.022,
+                      "limite": "GB"
+                    }
+                  },
+                  "Europe (Stockholm)": {
+                    "no service": 0
+                  },
+                  "Europe (Milan)": {
+                    "backup": {
+                      "valor": 0.022,
+                      "limite": "GB"
+                    }
+                  },
+                  "Middle East (Bahrain)": {
+                    "no service": 0
+                  },
+                  "South America (São Paulo)": {
+                    "backup": {
+                      "valor": 0.037,
+                      "limite": "GB"
+                    }
+                  },
+                  "AWS GovCloud (US-West)": {
+                    "backup": {
+                      "valor": 0.036,
+                      "limite": "GB"
+                    }
+                  },
+                  "AWS GovCloud (US-East)": {
+                    "no service": 0
+                  }
+                },
+                "trasferencia": {
+                  "US East": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.098,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.085,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.07,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.05,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.02
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.02
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.02
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.02
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.02
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.02
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.02
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.02
+                        },
+                        "Europe (London)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.02
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.02
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.02
+                        }
+                      }
+                    }
+                  },
+                  "US West": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.098,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.085,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.07,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.05,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.02
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.02
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.02
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.02
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.02
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.02
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.02
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.02
+                        },
+                        "Europe (London)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.02
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.02
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.02
+                        }
+                      }
+                    }
+                  },
+                  "Africa (Cape Town)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.154,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.147,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.126,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.112,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.147
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.147
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.147
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.147
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.147
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.147
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.147
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.147
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.147
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.147
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.147
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.147
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.147
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.147
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.147
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.147
+                        },
+                        "Europe (London)": {
+                          "precio": 0.147
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.147
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.147
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.147
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.147
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.147
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.147
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.147
+                        }
+                    
+                      }
+                    }
+                  },
+                  "Asia Pacific (Hong Kong)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.12,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.085,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.082,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.08,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.098
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.098
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.098
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.098
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.098
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.098
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.098
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.098
+                        },
+                        "Europe (London)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.098
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.098
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.098
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.098
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.098
+                        }
+                    
+                      }
+                    }
+                  },
+                  "Asia Pacific (Mumbai)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.1093,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.085,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.082,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.08,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.086
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.086
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.086
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.086
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.086
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.086
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.086
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.086
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.086
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.086
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.086
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.086
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.086
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.086
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.086
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.086
+                        },
+                        "Europe (London)": {
+                          "precio": 0.086
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.086
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.086
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.086
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.086
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.086
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.086
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.086
+                        }
+                    
+                      }
+                    }
+                  },
+                  "Asia Pacific (Osaka)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.114,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.089,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.086,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.084,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.098
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.098
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.098
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.098
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.098
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.098
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.098
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.098
+                        },
+                        "Europe (London)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.098
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.098
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.098
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.098
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.098
+                        }
+                    
+                      }
+                    }
+                  },
+                  "Asia Pacific (Seoul)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.126,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.122,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.117,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.108,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.08
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.08
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.08
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.08
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.08
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.08
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.08
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.08
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.08
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.08
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.08
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.08
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.08
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.08
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.08
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.08
+                        },
+                        "Europe (London)": {
+                          "precio": 0.08
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.08
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.08
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.08
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.08
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.08
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.08
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.08
+                        }
+                      }
+                    }
+                  },
+                  "Asia Pacific (Singapore)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.12,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.085,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.082,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.08,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.098
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.098
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.098
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.098
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.098
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.098
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.098
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.098
+                        },
+                        "Europe (London)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.098
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.098
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.098
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.098
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.098
+                        }
+                      }
+                    }
+                  },
+                  "Asia Pacific (Sydney)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.114,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.098,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.094,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.092,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.098
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.098
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.098
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.098
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.098
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.098
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.098
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.098
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.098
+                        },
+                        "Europe (London)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.098
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.098
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.098
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.098
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.098
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.098
+                        }
+                      }
+                    }
+                  },
+                  "Asia Pacific (Tokyo)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.114,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.089,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.086,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.084,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.09
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.09
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.09
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.09
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.09
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.09
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.09
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.09
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.09
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.09
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.09
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.09
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.09
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.09
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.09
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.09
+                        },
+                        "Europe (London)": {
+                          "precio": 0.09
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.09
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.09
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.09
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.09
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.09
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.09
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.09
+                        }
+                      }
+                    }
+                  },
+                  "Canada (Central)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.09,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.085,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.07,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.05,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.02
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.02
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.02
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.02
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.02
+                        },
+                        "Canada (Central)": {
+                          "precio": 0
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.02
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.02
+                        },
+                        "Europe (London)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.02
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.02
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.02
+                        }
+                      }
+                    }
+                  },
+                  "China (Beijing)": {
+                    "no service": 0 
+                  },
+                  "China (Ningxia)": {
+                    "no service": 0 
+                  },
+                  "Europe (Frankfurt)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.09,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.085,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.07,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.05,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.02
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.02
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.02
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.02
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.02
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.02
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.02
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.02
+                        },
+                        "Europe (London)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.02
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.02
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.02
+                        }
+                      }
+                    }
+                  },
+                  "Europe (Ireland)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.09,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.085,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.07,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.05,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.02
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.02
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.02
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.02
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.02
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.02
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.02
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0
+                        },
+                        "Europe (London)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.02
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.02
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.02
+                        }
+                      }
+                    }
+                  },
+                  "Europe (London)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.09,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.085,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.07,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.05,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.02
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.02
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.02
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.02
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.02
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.02
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.02
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.02
+                        },
+                        "Europe (London)": {
+                          "precio": 0
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.02
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.02
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.02
+                        }
+                      }
+                    }
+                  },
+                  "Europe (Paris)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.09,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.085,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.07,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.05,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.02
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.02
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.02
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.02
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.02
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.02
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.02
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.02
+                        },
+                        "Europe (London)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.02
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.02
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.02
+                        }
+                      }
+                    }
+                  },
+                  "Europe (Stockholm)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.09,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.085,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.07,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.05,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.02
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.02
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.02
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.02
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.02
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.02
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.02
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.02
+                        },
+                        "Europe (London)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.02
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.02
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.02
+                        }
+                      }
+                    }
+                  },
+                  "Europe (Milan)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.09,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.085,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.07,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.05,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.02
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.02
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.02
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.02
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.02
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.02
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.02
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.02
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.02
+                        },
+                        "Europe (London)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.02
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.02
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.02
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.02
+                        }
+                      }
+                    }
+                  },
+                  "Middle East (Bahrain)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.117,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.1105,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.091,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.065,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.1105
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.1105
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.1105
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.1105
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.1105
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.1105
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.1105
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.1105
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.1105
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.1105
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.1105
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.1105
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.1105
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.1105
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.1105
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.1105
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.1105
+                        },
+                        "Europe (London)": {
+                          "precio": 0.1105
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.1105
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.1105
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0.1105
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.1105
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.1105
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.1105
+                        }
+                      }
+                    }
+                  },
+                  "South America (São Paulo)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.15,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.138,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.126,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.114,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.138
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.138
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.138
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.138
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.138
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.138
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.138
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.138
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.138
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.138
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.138
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.138
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.138
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.138
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.138
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.138
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.138
+                        },
+                        "Europe (London)": {
+                          "precio": 0.138
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.138
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.138
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.138
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.138
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.138
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.138
+                        }
+                      }
+                    }
+                  },
+                  "AWS GovCloud (US-West)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.155,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.115,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.09,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.065,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.03
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.03
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.03
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.03
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.03
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.03
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.03
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.03
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.03
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.03
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.03
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.03
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.03
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.03
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.03
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.03
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.03
+                        },
+                        "Europe (London)": {
+                          "precio": 0.03
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.03
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.03
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.03
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.03
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.03
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.03
+                        }
+                      }
+                    }
+                  },
+                  "AWS GovCloud (US-East)": {
+                    "entrante": {
+                      "gratis": 0
+                    },
+                    "saliente": {
+                      "internet": [
+                        {
+                          "valor": 0.155,
+                          "limite": 10,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.115,
+                          "limite": 50,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.09,
+                          "limite": 150,
+                          "unidad": "TB"
+                        },
+                        {
+                          "valor": 0.065,
+                          "limite": 0,
+                          "unidad": "TB"
+                        }
+                      ],
+                      "aws": {
+                        "cloudfront": {
+                          "precio": 0
+                        },
+                        "US East (Ohio)": {
+                          "precio": 0.03
+                        },
+                        "US East (N. Virginia)": {
+                          "precio": 0.03
+                        },
+                        "US West (N. California)": {
+                          "precio": 0.03
+                        },
+                        "US West (Oregon)": {
+                          "precio": 0.03
+                        },
+                        "Africa (Cape Town)": {
+                          "precio": 0.03
+                        },
+                        "Asia Pacific (Hong Kong)": {
+                          "precio": 0.03
+                        },
+                        "Asia Pacific (Mumbai)": {
+                          "precio": 0.03
+                        },
+                        "Asia Pacific (Osaka)": {
+                          "precio": 0.03
+                        },
+                        "Asia Pacific (Seoul)": {
+                          "precio": 0.03
+                        },
+                        "Asia Pacific (Singapore)": {
+                          "precio": 0.03
+                        },
+                        "Asia Pacific (Sydney)": {
+                          "precio": 0.03
+                        },
+                        "Asia Pacific (Tokyo)": {
+                          "precio": 0.03
+                        },
+                        "Canada (Central)": {
+                          "precio": 0.03
+                        },
+                        "China (Beijing)": {
+                          "precio": 0.03
+                        },
+                        "China (Ningxia)": {
+                          "precio": 0.03
+                        },
+                        "Europe (Frankfurt)": {
+                          "precio": 0.03
+                        },
+                        "Europe (Ireland)": {
+                          "precio": 0.03
+                        },
+                        "Europe (London)": {
+                          "precio": 0.03
+                        },
+                        "Europe (Paris)": {
+                          "precio": 0.03
+                        },
+                        "Europe (Stockholm)": {
+                          "precio": 0.03
+                        },
+                        "Europe (Milan)": {
+                          "precio": 0
+                        },
+                        "Middle East (Bahrain)": {
+                          "precio": 0.03
+                        },
+                        "South America (São Paulo)": {
+                          "precio": 0.03
+                        },
+                        "AWS GovCloud (US-West)": {
+                          "precio": 0.03
+                        },
+                        "AWS GovCloud (US-East)": {
+                          "precio": 0.03
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+        "AZURE": {
+          "-": {
+            "name": "",
+            "url": ""
+          }
+        },
+        "GCP": {
+          "-": {
+            "name": "",
+            "url": ""
+          }
+        }
       }
     }
   ]
