@@ -1,24 +1,3 @@
-{
-  "servicio": "",
-  "etiquetas": [],
-  "ofertas": {
-    "AWS": {
-      "-": {
-          "name": "",
-          "url": ""
-          }
-      },
-    "AZURE": {
-      "-": {
-        "name": "",
-        "url": ""
-      }
-    },
-    "GCP": {
-      "-": {
-        "name": "",
-        "url": ""
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6d30542b9450560b29adc29b1825481fa82fdbaa731ca51a3e50b52d638f593
+size 330

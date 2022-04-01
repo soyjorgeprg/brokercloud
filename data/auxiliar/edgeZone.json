@@ -1,10 +1,3 @@
-{ 
-    "EEUU-Mexico-Canada" :{}, 
-	"Europa-Israel"  :{},
-    "Sudáfrica-Kenia-Oriente" :{},
-    "AméricaSur" :{},
-    "Japón" :{},
-    "Australia-NuevaZelanda" :{},
-    "HongKong-Indonesia-Filipinas-Singapur-Corea del Sur-Taiwán-Tailandia" :{},
-    "India" :{}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:247fb923bc00a24d56020eb325a8d790a9224e49d00e72463da7a63b88810496
+size 275
