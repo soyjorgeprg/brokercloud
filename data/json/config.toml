@@ -2,6 +2,11 @@
     [URL.AWS]
     BASE = https://pricing.us-east-1.amazonaws.com
 
+    [URL.GCP]
+    BASE = https://cloudbilling.googleapis.com/v1/services
+    KEY = key=
+    SKU = skus
+
 [SERVICIOS]
     [SERVICIOS.AWS]
     AmazonEC2 = AmazonEC2
@@ -31,3 +36,27 @@
     AWSCodeCommit = AWSCodeCommit
     AmazonEKS = AmazonEKS
     awskms = awskms
+
+    [SERVICIOS.GCP]
+    Compute Engine = Compute Engine
+    Cloud Storage = Cloud Storage
+    Cloud Logging = Cloud Logging
+    Cloud Scheduler = Cloud Scheduler
+    Cloud SQL = Cloud SQL
+    Cloud Functions = Cloud Functions
+    Cloud Tasks = Cloud Tasks
+    Pub/Sub Lite = Pub/Sub Lite
+    Cloud Pub/Sub = Cloud Pub/Sub
+    Cloud Bigtable = Cloud Bigtable
+    Cloud Filestore = Cloud Filestore
+    Anthos = Anthos
+    Kubernetes Engine = Kubernetes Engine
+    API Gateway = API Gateway
+    BigQuery = BigQuery
+    Artifact Registry = Artifact Registry
+    Cloud Memorystore for Redis = Cloud Memorystore for Redis
+    Cloud Memorystore for Memcached = Cloud Memorystore for Memcached
+    Certificate Authority Service = Certificate Authority Service
+    Cloud Build = Cloud Build
+    Cloud Key Management Service (KMS) = Cloud Key Management Service (KMS)
+
