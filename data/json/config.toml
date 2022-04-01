@@ -1,0 +1,33 @@
+[URL]
+    [URL.AWS]
+    BASE = https://pricing.us-east-1.amazonaws.com
+
+[SERVICIOS]
+    [SERVICIOS.AWS]
+    AmazonEC2 = AmazonEC2
+    AmazonS3 = AmazonS3
+    AmazonS3GlacierDeepArchive = AmazonS3GlacierDeepArchive
+    AmazonCloudWatch = AmazonCloudWatch
+    AmazonRDS = AmazonRDS
+    AWSLambda = AWSLambda
+    AmazonSNS = AmazonSNS
+    AWSCloudFormation = AWSCloudFormation
+    AWSELB = AWSELB
+    AmazonDynamoDB = AmazonDynamoDB
+    AWSQueueService = AWSQueueService
+    AmazonEFS = AmazonEFS
+    AmazonSES = AmazonSES
+    AWSCloudTrail = AWSCloudTrail
+    AmazonECS = AmazonECS
+    AmazonApiGateway = AmazonApiGateway
+    AmazonRedshift = AmazonRedshift
+    AmazonECR = AmazonECR
+    AmazonElastiCache = AmazonElastiCache
+    AWSConfig = AWSConfig
+    AWSCostExplorer = AWSCostExplorer
+    AWSCertificateManager = AWSCertificateManager
+    AWSCodeDeploy = AWSCodeDeploy
+    AWSCodePipeline = AWSCodePipeline
+    AWSCodeCommit = AWSCodeCommit
+    AmazonEKS = AmazonEKS
+    awskms = awskms
