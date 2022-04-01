@@ -1,6 +1,14 @@
 # FOLDERS #
 ###########
 
+### IDEs ###
 .idea/
 data/.vscode/
+
+### PRIVATE FILES ###
 data/json/.env
+
+### BIG FILES ###
+data/json/AWS/data/amazonec2.json
+data/json/AWS/data/amazonrds.json
+
