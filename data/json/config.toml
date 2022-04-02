@@ -19,6 +19,7 @@
     AWSCloudFormation = AWSCloudFormation
     AWSELB = AWSELB
     AmazonDynamoDB = AmazonDynamoDB
+    AmazonSimpleDB = AmazonSimpleDB
     AWSQueueService = AWSQueueService
     AmazonEFS = AmazonEFS
     AmazonSES = AmazonSES
@@ -36,6 +37,7 @@
     AWSCodeCommit = AWSCodeCommit
     AmazonEKS = AmazonEKS
     awskms = awskms
+    CloudHSM = CloudHSM
 
     [SERVICIOS.GCP]
     Compute Engine = Compute Engine
@@ -60,3 +62,35 @@
     Cloud Build = Cloud Build
     Cloud Key Management Service (KMS) = Cloud Key Management Service (KMS)
 
+    [SERVICIOS.AZURE]
+    Virtual Machines = Virtual Machines
+    Blob storage = Blob storage
+    Storage cool tier = Storage cool tier
+    Storage archive access tier = Storage archive access tier
+    Monitor = Monitor
+    Application Insights = Application Insights
+    SQL Database = SQL Database
+    Database for MySQL = Database for MySQL
+    Database for PostgreSQL = Database for PostgreSQL
+    Database for MariaDB = Database for MariaDB
+    Functions = Functions
+    Service Bus = Service Bus
+    Resource Manager = Resource Manager
+    Bicep = Bicep
+    VM extensions = VM extensions
+    Azure Automation = Azure Automation
+    Load Balancer = Load Balancer
+    Application Gateway = Application Gateway
+    CosmoDB = CosmoDB
+    Queue Storage = Queue Storage
+    Files = Files
+    Activity log = Activity log
+    Container Instances = Container Instances
+    API Management = API Management
+    Synapse Analytics = Synapse Analytics
+    Container Registry = Container Registry
+    Cache for Redis = Cache for Redis
+    Application Change Analysis = Application Change Analysis
+    DevOps = DevOps
+    App Service Certificates available on the Portal = App Service Certificates available on the Portal
+    Key Vault = Key Vault
