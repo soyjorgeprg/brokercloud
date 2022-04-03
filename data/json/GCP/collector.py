@@ -30,15 +30,19 @@ if(r.status_code == 200):
         req = requests.get(URL + "/" + serviceID + "/" + SKU + "?" + KEY + API_KEY)
         index = req.json()
         fichero = elem.replace(" ", "").replace("/", "")
-        print("Comienza la escritura en fichero " + fichero + ".json: ")
-        with open('json/GCP/data/' + fichero + '.json', 'w') as outfile:
+        print("Comienza la escritura en fichero " + fichero + "_0.json: ")
+        with open('json/GCP/data/' + fichero + '_0.json', 'w') as outfile:
             json.dump(index, outfile)
-        """
-        if(index['nextPageToken']):
-            print(URL + "/" + serviceID + "/" + SKU + "?"+ "pageToken=CiAKGjBpNDd2Nmp2Zml2cXRwYjBpOXA" + "&" + KEY + API_KEY )
-            req = requests.get(URL + "/" + serviceID + "/" + SKU + "?"+ "pageToken=CiAKGjBpNDd2Nmp2Zml2cXRwYjBpOXA" + "&" + KEY + API_KEY )
-            aux = req.json()
-        """
+        i = 1
+        nextPage = index['nextPageToken']
+        while(nextPage):
+            req = requests.get(URL + "/" + serviceID + "/" + SKU + "?" + KEY + API_KEY + "&pageToken=" + nextPage)
+            print("Comienza la escritura en fichero " + fichero + '_' + str(i) + ".json: ")
+            with open('json/GCP/data/' + fichero + '_' + str(i) + '.json', 'w') as outfile:
+                json.dump(req.json(), outfile)
+            i+=1
+            out = req.json()
+            nextPage = out['nextPageToken']
         print("Siguiente servicio")
 else:
     print("Problema con el indice general de los precios de AWS")
