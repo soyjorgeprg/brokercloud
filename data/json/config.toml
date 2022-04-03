@@ -7,6 +7,10 @@
     KEY = key=
     SKU = skus
 
+    [URL.AZURE]
+    BASE = https://prices.azure.com/api/retail/prices
+    FILTER = ?$filter=serviceName
+
 [SERVICIOS]
     [SERVICIOS.AWS]
     AmazonEC2 = AmazonEC2
