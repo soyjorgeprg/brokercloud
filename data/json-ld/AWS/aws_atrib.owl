@@ -1,0 +1,455 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#"
+     xml:base="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib">
+        <rdfs:label>AWS SKUs Atributtes</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#cacheEngine -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#cacheEngine">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#cacheMemorySizeGb -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#cacheMemorySizeGb">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#ciType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#ciType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#cloudformationresourceProvider -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#cloudformationresourceProvider">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#contentType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#contentType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#cputype -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#cputype">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#currentGeneration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#currentGeneration">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#deploymentLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#deploymentLocation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#endpointType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#endpointType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#fromLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#fromLocation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#fromLocationType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#fromLocationType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#fromRegionCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#fromRegionCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#group -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#group">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#groupDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#groupDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#instanceFamily -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#instanceFamily">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#instanceType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#instanceType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#location">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#locationType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#locationType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#memory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#memory">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#messageDeliveryFrequency -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#messageDeliveryFrequency">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#messageDeliveryOrder -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#messageDeliveryOrder">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#networkPerformance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#networkPerformance">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#operation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#operation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#origin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#origin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#queueType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#queueType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#recipient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#recipient">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#regionCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#regionCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#requestType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#requestType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#servicecode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#servicecode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#servicename -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#servicename">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#storageType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#storageType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#tenancy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#tenancy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#throughputClass -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#throughputClass">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#toLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#toLocation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#toLocationType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#toLocationType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#toRegionCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#toRegionCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#transferType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#transferType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#trialProduct -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#trialProduct">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#upfrontCommitment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#upfrontCommitment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#usagetype -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#usagetype">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#vcpu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#vcpu">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
