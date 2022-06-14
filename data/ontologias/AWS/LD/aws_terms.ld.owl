@@ -1,0 +1,45 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_terms.ld.owl#effectiveDate"
+    }, {
+      "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_terms.ld.owl#offerTermCode"
+    }, {
+      "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_terms.ld.owl#sku"
+    } ]
+  } ]
+}, {
+  "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_terms.ld.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_price.ld.owl"
+  } ]
+}, {
+  "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_terms.ld.owl#Terms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_terms.ld.owl#effectiveDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_terms.ld.owl#Terms"
+  } ]
+}, {
+  "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_terms.ld.owl#offerTermCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_terms.ld.owl#Terms"
+  } ]
+}, {
+  "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_terms.ld.owl#sku",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_terms.ld.owl#Terms"
+  } ]
+}, {
+  "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_price.ld.owl#PriceDimensions",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_terms.ld.owl#Terms"
+  } ]
+} ]

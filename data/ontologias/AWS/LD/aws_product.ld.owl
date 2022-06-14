@@ -1,502 +1,274 @@
 [ {
-  "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "AWS SKUs Atributtes"
+  "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_product.ld.owl#AWS_Product"
   } ]
 }, {
-  "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#cacheEngine",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#cacheMemorySizeGb",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#ciType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#cloudformationresourceProvider",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#contentType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#cputype",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#currentGeneration",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#deploymentLocation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#endpointType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#fromLocation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#fromLocationType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#fromRegionCode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#group",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#groupDescription",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#instanceFamily",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#instanceType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#location",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#locationType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#memory",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#messageDeliveryFrequency",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#messageDeliveryOrder",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#networkPerformance",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#operation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#origin",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#queueType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#recipient",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#regionCode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#requestType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#servicecode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#servicename",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#storageType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#tenancy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#throughputClass",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#toLocation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#toLocationType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#toRegionCode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#transferType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#trialProduct",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#upfrontCommitment",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#usagetype",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#vcpu",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl#Atributos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
+}, {
+  "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_product.ld.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_atrib.ld.owl"
+  } ]
+}, {
+  "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_product.ld.owl#SKU",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_product.ld.owl#AWS_Product"
+  } ]
+}, {
+  "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_product.ld.owl#productFamily",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_product.ld.owl#AWS_Product"
+  } ]
+}, {
+  "@id" : "https://raw.githubusercontent.com/soyjorgeprg/brokercloud/data/data/ontologias/AWS/LD/aws_product.ld.owl#AWS_Product",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 } ]
