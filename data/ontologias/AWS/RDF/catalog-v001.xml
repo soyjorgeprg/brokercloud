@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions" uri="aws_price.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib" uri="aws_atrib.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1655111364978" name="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib" uri="aws_atrib.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1655111364978" name="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_service" uri="aws_service.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1655111364978" name="http://www.semanticweb.org/jorge/ontologies/2022/5/aws_terms" uri="aws_terms.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1655111364978" name="http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions" uri="aws_price.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1655111364978" name="http://www.semanticweb.org/jorge/ontologies/2022/5/untitled-ontology-21" uri="aws_product.owl"/>
+    </group>
+</catalog>
