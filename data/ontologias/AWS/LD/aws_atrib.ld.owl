@@ -1,17 +1,17 @@
 [ {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "AWS SKUs Atributtes"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#cacheEngine",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#cacheEngine",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -20,10 +20,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#cacheMemorySizeGb",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#cacheMemorySizeGb",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -32,10 +32,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#ciType",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#ciType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -44,10 +44,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#cloudformationresourceProvider",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#cloudformationresourceProvider",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -56,10 +56,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#contentType",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#contentType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -68,10 +68,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#cputype",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#cputype",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -80,10 +80,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#currentGeneration",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#currentGeneration",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -92,10 +92,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#deploymentLocation",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#deploymentLocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -104,10 +104,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#endpointType",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#endpointType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -116,10 +116,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#fromLocation",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#fromLocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -128,10 +128,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#fromLocationType",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#fromLocationType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -140,10 +140,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#fromRegionCode",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#fromRegionCode",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -152,10 +152,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#group",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#group",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -164,10 +164,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#groupDescription",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#groupDescription",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -176,10 +176,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#instanceFamily",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#instanceFamily",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -188,10 +188,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#instanceType",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#instanceType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -200,10 +200,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#location",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#location",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -212,10 +212,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#locationType",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#locationType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -224,10 +224,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#memory",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#memory",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -236,10 +236,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#messageDeliveryFrequency",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#messageDeliveryFrequency",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -248,10 +248,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#messageDeliveryOrder",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#messageDeliveryOrder",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -260,10 +260,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#networkPerformance",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#networkPerformance",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -272,10 +272,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#operation",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#operation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -284,10 +284,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#origin",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#origin",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -296,10 +296,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#queueType",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#queueType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -308,10 +308,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#recipient",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#recipient",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -320,10 +320,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#regionCode",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#regionCode",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -332,10 +332,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#requestType",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#requestType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -344,10 +344,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#servicecode",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#servicecode",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -356,10 +356,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#servicename",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#servicename",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -368,10 +368,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#storageType",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#storageType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -380,10 +380,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#tenancy",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#tenancy",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -392,10 +392,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#throughputClass",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#throughputClass",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -404,10 +404,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#toLocation",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#toLocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -416,10 +416,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#toLocationType",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#toLocationType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -428,10 +428,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#toRegionCode",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#toRegionCode",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -440,10 +440,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#transferType",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#transferType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -452,10 +452,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#trialProduct",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#trialProduct",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -464,10 +464,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#upfrontCommitment",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#upfrontCommitment",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -476,10 +476,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#usagetype",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#usagetype",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -488,10 +488,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#vcpu",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#vcpu",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/aws_atrib#Atributos"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_atrib.ld#Atributos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"

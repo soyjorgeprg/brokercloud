@@ -1,14 +1,14 @@
 [ {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_price.ld",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions#PriceDimensions",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_price.ld#PriceDimensions",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions#beginRange",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_price.ld#beginRange",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions#PriceDimensions"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_price.ld#PriceDimensions"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -17,10 +17,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions#description",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_price.ld#description",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions#PriceDimensions"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_price.ld#PriceDimensions"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -29,10 +29,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions#endRange",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_price.ld#endRange",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions#PriceDimensions"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_price.ld#PriceDimensions"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -41,10 +41,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions#pricePerUnit",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_price.ld#pricePerUnit",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions#PriceDimensions"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_price.ld#PriceDimensions"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -53,10 +53,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions#rateCode",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_price.ld#rateCode",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions#PriceDimensions"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_price.ld#PriceDimensions"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -65,10 +65,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions#unit",
+  "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_price.ld#unit",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/jorge/ontologies/2022/5/priceDimensions#PriceDimensions"
+    "@id" : "https://github.com/soyjorgeprg/brokercloud/blob/data/data/ontologias/AWS/LD/aws_price.ld#PriceDimensions"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
